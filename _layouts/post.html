@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.author %}
+        <span class="post-author">by {{ page.author }}</span>
+      {% endif %}
+      {% if page.categories and page.categories.size > 0 %}
+        <span class="post-categories">
+          {% for category in page.categories %}
+            <span class="category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </span>
+      {% endif %}
+      {% if page.attendees %}
+        <span class="post-attendees">{{ page.attendees }} attendees</span>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if page.featured_image %}
+  <div class="post-image">
+    <img src="{{ page.featured_image }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <nav class="post-navigation">
+      <a href="{{ '/blog' | relative_url }}" class="btn btn-secondary">← Back to Blog</a>
+      {% if page.meetup_url %}
+        <a href="{{ page.meetup_url }}" target="_blank" rel="noopener" class="btn btn-primary">View on Meetup</a>
+      {% endif %}
+    </nav>
+  </footer>
+</article>

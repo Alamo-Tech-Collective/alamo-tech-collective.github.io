@@ -1,0 +1,167 @@
+// Minimal home page styles (matching alamotechcollective.com)
+
+// Hero section - minimal style
+.hero.minimal {
+  text-align: center;
+  padding: $spacing-unit * 4 $spacing-unit;
+  background: $black;
+  
+  h1 {
+    font-size: 3rem;
+    color: $white;
+    font-weight: normal;
+    margin-bottom: $spacing-unit;
+    letter-spacing: -1px;
+    
+    @media (max-width: $mobile-width) {
+      font-size: 2rem;
+    }
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: $white;
+    opacity: 0.8;
+    max-width: 600px;
+    margin: 0 auto $spacing-unit * 2;
+    line-height: 1.6;
+  }
+}
+
+// Minimal button style
+.btn-minimal {
+  display: inline-block;
+  padding: 12px 30px;
+  background: transparent;
+  color: $white;
+  text-decoration: none;
+  border: 2px solid $white;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  
+  &:hover {
+    background: $white;
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+// Quick facts - minimal grid
+.quick-facts.minimal {
+  padding: $spacing-unit * 3 $spacing-unit;
+  background: $black;
+  
+  .facts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: $spacing-unit * 2;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    @media (max-width: $mobile-width) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: $spacing-unit;
+    }
+  }
+  
+  .fact {
+    text-align: center;
+    color: $white;
+    
+    .fact-icon {
+      margin-bottom: $spacing-unit / 2;
+      
+      img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        opacity: 0.9;
+      }
+      
+      .icon {
+        font-size: 2.5rem;
+        display: block;
+      }
+    }
+    
+    .fact-text {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+// Mission section - minimal
+.mission.minimal {
+  padding: $spacing-unit * 3 $spacing-unit;
+  background: $black;
+  
+  .mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    
+    p {
+      font-size: 1.3rem;
+      line-height: 1.8;
+      color: $white;
+      opacity: 0.9;
+    }
+  }
+}
+
+// CTA section - minimal
+.cta.minimal {
+  text-align: center;
+  padding: $spacing-unit * 4 $spacing-unit;
+  background: $black;
+  border-top: 1px solid rgba($white, 0.1);
+  
+  h2 {
+    color: $white;
+    font-size: 2rem;
+    margin-bottom: $spacing-unit;
+    font-weight: normal;
+  }
+  
+  p {
+    color: $white;
+    opacity: 0.8;
+    margin-bottom: $spacing-unit * 2;
+  }
+}
+
+// Update header for minimal style
+header {
+  background-color: $black;
+  border-bottom: 1px solid rgba($white, 0.1);
+  
+  .logo-img {
+    filter: invert(1);
+    opacity: 0.9;
+    
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+  nav a {
+    color: $white;
+    border: 1px solid rgba($white, 0.2);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    
+    &:hover,
+    &.active {
+      color: $black;
+      background: $white;
+      border-color: $white;
+      box-shadow: none;
+    }
+  }
+}

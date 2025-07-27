@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CoworkingSpace",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "San Antonio",
+    "addressRegion": "TX",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "{{ site.email }}"
+  },
+  "sameAs": [
+    "https://github.com/{{ site.github_username }}",
+    "https://www.meetup.com/alamotechcollective/"
+  ],
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "24/7 Access",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification", 
+      "name": "High-speed Internet",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Coffee Bar",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Electronics Lab",
+      "value": true
+    }
+  ],
+  "priceRange": "$99/month",
+  "openingHours": "Mo-Su 00:00-24:00"
+}

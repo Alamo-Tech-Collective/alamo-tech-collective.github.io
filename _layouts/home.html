@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<section class="hero minimal">
+  <h1>{{ page.hero_title | default: "San Antonio's Tech-Exclusive Hackerspace" }}</h1>
+  <p class="subtitle">{{ page.hero_subtitle | default: "Built for people who want to build, connect, and learn. No corporate noise. No gatekeeping. Just real community." }}</p>
+  <a href="{{ page.hero_cta_link | default: '#' }}" class="btn btn-minimal">{{ page.hero_cta_text | default: "Join the Community" }}</a>
+</section>
+
+<section class="quick-facts minimal">
+  <div class="facts-grid">
+    {% for fact in page.quick_facts %}
+    <div class="fact">
+      <div class="fact-icon">
+        {% if fact.icon_img %}
+          <img src="{{ fact.icon_img | relative_url }}" alt="{{ fact.text }}">
+        {% else %}
+          <span class="icon">{{ fact.icon }}</span>
+        {% endif %}
+      </div>
+      <div class="fact-text">{{ fact.text }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="mission minimal">
+  <div class="mission-content">
+    <p>{{ page.mission_text }}</p>
+  </div>
+</section>
+
+{% if page.show_photos %}
+<section class="photos">
+  <div class="photo-grid">
+    <div class="photo-item">
+      <img src="/assets/images/placeholder-workstations.svg" alt="Workstations with multiple monitors and comfortable chairs" loading="lazy">
+      <div class="photo-caption">24/7 workstations with high-speed internet</div>
+    </div>
+    <div class="photo-item">
+      <img src="/assets/images/placeholder-lounge.svg" alt="Collaborative lounge area with whiteboards" loading="lazy">
+      <div class="photo-caption">Collaborative spaces for brainstorming</div>
+    </div>
+    <div class="photo-item">
+      <img src="/assets/images/placeholder-lab.svg" alt="Electronics lab with testing equipment" loading="lazy">
+      <div class="photo-caption">Lab space for hardware projects</div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="cta minimal">
+  <h2>{{ page.cta_title | default: "Visit the ATC Hackerspace" }}</h2>
+  <p>{{ page.cta_subtitle | default: "Explore, connect, and create with like-minded innovators." }}</p>
+  <a href="{{ page.cta_link | default: '#' }}" class="btn btn-minimal">{{ page.cta_button_text | default: "Schedule a Tour" }}</a>
+</section>

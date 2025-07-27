@@ -1,0 +1,51 @@
+// Reset and base styles
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  background-color: $black;
+  color: $white;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $white;
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+
+a {
+  color: $white;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+  opacity: 0.9;
+
+  &:hover {
+    opacity: 1;
+    color: $white;
+  }
+}
+
+p {
+  margin: $spacing-unit 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  min-height: calc(100vh - 200px); // Adjust based on header/footer height
+}

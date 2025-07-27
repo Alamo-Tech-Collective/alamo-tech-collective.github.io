@@ -1,0 +1,315 @@
+// Override all green styling to minimal black/white theme
+
+// Apply black background/white text to ALL pages
+body {
+  background-color: $black !important;
+  color: $white !important;
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: $white !important;
+  }
+
+  a {
+    color: $white !important;
+    opacity: 0.9;
+    text-decoration: underline;
+    
+    &:hover {
+      opacity: 1;
+      text-shadow: none !important;
+    }
+  }
+}
+
+// Header overrides
+header {
+  border-bottom-color: rgba($white, 0.1) !important;
+  
+  .logo a {
+    color: $white !important;
+    text-shadow: none !important;
+    
+    &:hover {
+      color: $white !important;
+      text-shadow: none !important;
+    }
+  }
+  
+  nav a {
+    color: $white !important;
+    border-color: rgba($white, 0.2) !important;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    
+    &:hover,
+    &.active {
+      color: $black !important;
+      background: $white !important;
+      border-color: $white !important;
+      box-shadow: none !important;
+    }
+  }
+}
+
+// Footer overrides
+footer {
+  background: $white !important;
+  color: $black !important;
+  border-top: 2px solid $black !important;
+  
+  .logo {
+    color: $black !important;
+  }
+  
+  h3, h4, h5 {
+    color: $black !important;
+  }
+  
+  p {
+    color: $black !important;
+  }
+  
+  a {
+    color: $black !important;
+    opacity: 0.8;
+    
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+  .newsletter {
+    h3 {
+      color: $black !important;
+    }
+    
+    .newsletter-form {
+      input {
+        background: $white !important;
+        border: 2px solid $black !important;
+        color: $black !important;
+        
+        &::placeholder {
+          color: rgba($black, 0.5) !important;
+        }
+        
+        &:focus {
+          box-shadow: 0 0 5px rgba($black, 0.3) !important;
+        }
+      }
+      
+      button {
+        background: $black !important;
+        color: $white !important;
+        border: 2px solid $black !important;
+        
+        &:hover {
+          background: transparent !important;
+          color: $black !important;
+        }
+      }
+    }
+  }
+  
+  .contact-info {
+    p {
+      color: $black !important;
+    }
+  }
+}
+
+// Page layout overrides - white text for all pages
+.page {
+  .page-header {
+    .page-title {
+      color: $white !important;
+      text-shadow: none !important;
+    }
+  }
+  
+  .page-content {
+    color: $white !important;
+    
+    h2, h3, h4 {
+      color: $white !important;
+    }
+    
+    p, li {
+      color: $white !important;
+    }
+  }
+}
+
+// Component overrides - white buttons for all pages
+.btn {
+  background: transparent !important;
+  color: $white !important;
+  border-color: $white !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  
+  &:hover {
+    background: $white !important;
+    color: $black !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+  }
+}
+
+// Override for secondary buttons to ensure visibility
+.btn-secondary {
+  background: $black !important;
+  color: $accent !important;
+  border-color: $accent !important;
+  
+  &:hover {
+    background: $accent !important;
+    color: $black !important;
+  }
+}
+
+// Quick facts override
+.quick-facts {
+  background: $black !important;
+  
+  h2 {
+    color: $white !important;
+  }
+  
+  .fact {
+    background: transparent !important;
+    border-color: rgba($white, 0.2) !important;
+    box-shadow: none !important;
+    
+    &:hover {
+      box-shadow: 0 0 10px rgba($white, 0.2) !important;
+    }
+    
+    .text {
+      color: $white !important;
+    }
+  }
+}
+
+// Mission section
+.mission {
+  background: $black !important;
+  
+  h2 {
+    color: $white !important;
+  }
+  
+  p {
+    color: $white !important;
+  }
+}
+
+// Photos section
+.photos {
+  background: rgba($white, 0.05) !important;
+  
+  .photo-placeholder {
+    background: rgba($white, 0.1) !important;
+    color: rgba($white, 0.5) !important;
+    border-color: rgba($white, 0.2) !important;
+  }
+}
+
+// CTA section
+.cta {
+  background: $black !important;
+  color: $white !important;
+  
+  h2 {
+    color: $white !important;
+  }
+  
+  p {
+    color: $white !important;
+  }
+}
+
+// Blog styles - white text for all pages
+.blog-posts {
+  .blog-post-preview {
+    border-bottom-color: rgba($white, 0.1) !important;
+    
+    .post-title a {
+      color: $white !important;
+      
+      &:hover {
+        color: $white !important;
+        text-shadow: none !important;
+      }
+    }
+    
+    .post-meta {
+      color: rgba($white, 0.6) !important;
+      
+      .post-attendees {
+        color: $white !important;
+      }
+    }
+    
+    .post-excerpt {
+      color: $white !important;
+    }
+    
+    .read-more {
+      color: $white !important;
+      
+      &:hover {
+        color: $white !important;
+        text-shadow: none !important;
+      }
+    }
+  }
+}
+
+.post {
+  .post-header {
+    border-bottom-color: rgba($white, 0.1) !important;
+    
+    .post-title {
+      color: $white !important;
+      text-shadow: none !important;
+    }
+    
+    .post-meta {
+      color: rgba($white, 0.6) !important;
+      
+      .post-attendees {
+        color: $white !important;
+      }
+    }
+  }
+  
+  .post-content {
+    color: $white !important;
+    
+    h2, h3, h4 {
+      color: $white !important;
+    }
+    
+    blockquote {
+      border-left-color: rgba($white, 0.3) !important;
+      color: rgba($white, 0.8) !important;
+    }
+  }
+  
+  .post-image img {
+    border-color: rgba($white, 0.2) !important;
+    box-shadow: none !important;
+  }
+  
+  .post-footer {
+    border-top-color: rgba($white, 0.1) !important;
+    background: $black !important;
+    
+    .post-navigation {
+      background: $black !important;
+    }
+  }
+}

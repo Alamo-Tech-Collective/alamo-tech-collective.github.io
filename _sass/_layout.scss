@@ -1,0 +1,744 @@
+// Main header
+.main-header {
+  background-color: $black;
+  border-bottom: 1px solid $gray;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $spacing-unit 0;
+  
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+    gap: $spacing-unit;
+  }
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $white;
+  text-decoration: none;
+  
+  img {
+    height: 40px;
+    width: auto;
+    filter: brightness(0) invert(1);
+  }
+  
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: $spacing-unit;
+  
+  @media (max-width: $tablet-width) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: $spacing-unit / 2;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  a {
+    color: $white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    
+    &:hover {
+      color: $white;
+      border-color: $white;
+      background-color: rgba($white, 0.1);
+      text-decoration: none;
+    }
+    
+    &.current {
+      color: $black !important;
+      background-color: $white;
+      border-color: $white;
+      font-weight: 600;
+      box-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+// Site footer
+.site-footer {
+  border-top: 2px solid $black;
+  padding: 3rem 0 2rem 0;
+  background-color: $white;
+  margin-top: 5rem;
+}
+
+.footer-content {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+}
+
+.footer-section {
+  h4 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    text-align: center;
+    color: #525252;
+    margin: 0;
+  }
+  
+  a {
+    color: #525252;
+    text-decoration: none;
+    
+    &:hover {
+      color: black;
+    }
+  }
+  
+  p {
+    color: #525252;
+    margin-bottom: 1rem;
+  }
+}
+
+.footer-bottom {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #737373;
+  font-size: 0.875rem;
+}
+
+// Newsletter form
+.newsletter-form {
+  margin: 1rem 0;
+  
+  .email-group {
+    display: flex;
+    max-width: 400px;
+    gap: 10px;
+    
+    @media (max-width: 640px) {
+      flex-direction: column;
+    }
+  }
+  
+  input[type="email"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #a3a3a3;
+    background: white;
+    color: black;
+    font-family: inherit;
+    border-radius: 0.375rem;
+    
+    &:focus {
+      outline: none;
+      border-color: black;
+    }
+    
+    &::placeholder {
+      color: #a3a3a3;
+    }
+  }
+  
+  .btn {
+    white-space: nowrap;
+    
+    @media (max-width: 640px) {
+      width: 100%;
+    }
+  }
+}
+
+// Button styles
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: center;
+  
+  &:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+  border-color: black;
+  
+  &:hover {
+    background-color: #262626;
+    border-color: #262626;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+}
+
+.btn-secondary {
+  background-color: $black;
+  color: $accent;
+  border-color: $accent;
+  
+  &:hover {
+    background-color: $accent;
+    color: $black;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+}
+
+// Container
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+  @media (min-width: 640px) {
+    padding: 0 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    padding: 0 2rem;
+  }
+}
+
+.container-sm {
+  max-width: 640px;
+}
+
+.container-md {
+  max-width: 768px;
+}
+
+.container-lg {
+  max-width: 1024px;
+}
+
+// Page content styling
+.content-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+  .page-title {
+    font-size: 3rem;
+    color: $white;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    
+    @media (max-width: $mobile-width) {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.page-content {
+  color: $white;
+  line-height: 1.8;
+  
+  h2 {
+    color: $white;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+  }
+  
+  h3 {
+    color: $white;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  h4 {
+    color: $white;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+    color: rgba($white, 0.9);
+    font-size: 1.1rem;
+  }
+  
+  ul, ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+    
+    li {
+      margin-bottom: 0.8rem;
+      color: rgba($white, 0.9);
+      font-size: 1.05rem;
+    }
+  }
+  
+  blockquote {
+    border-left: 4px solid rgba($white, 0.3);
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: rgba($white, 0.7);
+    font-size: 1.1rem;
+  }
+  
+  a {
+    color: $white;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    
+    &:hover {
+      opacity: 0.8;
+      text-decoration: none;
+    }
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 1.5rem 0.5rem 1.5rem 0;
+    text-decoration: none;
+  }
+}
+
+// Pricing cards for membership page
+.pricing-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  margin: 3rem 0;
+  
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pricing-card {
+  background: rgba($white, 0.05);
+  border: 2px solid rgba($white, 0.2);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  
+  &.featured {
+    border-color: $white;
+    transform: scale(1.02);
+    position: relative;
+    
+    &::before {
+      content: "Most Popular";
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: $white;
+      color: $black;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.875rem;
+      font-weight: bold;
+    }
+  }
+  
+  &:hover {
+    border-color: $white;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(255,255,255,0.1);
+  }
+}
+
+.pricing-header {
+  margin-bottom: 2rem;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: $white;
+}
+
+.pricing-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+  
+  .currency {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba($white, 0.7);
+  }
+  
+  .amount {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    color: $white;
+  }
+  
+  .period {
+    font-size: 1.25rem;
+    color: rgba($white, 0.7);
+  }
+}
+
+.pricing-description {
+  color: rgba($white, 0.7);
+  margin: 0 0 2rem 0;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  text-align: left;
+  
+  li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba($white, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: rgba($white, 0.9);
+    
+    &:last-child {
+      border-bottom: none;
+    }
+    
+    &::before {
+      content: "✓";
+      color: $white;
+      font-weight: bold;
+      font-size: 1.125rem;
+    }
+  }
+}
+
+.pricing-footer {
+  text-align: center;
+}
+
+// Features grid
+.features-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  margin: 3rem 0;
+  
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2rem;
+  background: rgba($white, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba($white, 0.1);
+  
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 1rem auto;
+    background: $white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &::before {
+      content: "•";
+      color: $black;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+  
+  .feature-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: $white;
+  }
+  
+  .feature-description {
+    color: rgba($white, 0.7);
+    margin: 0;
+  }
+}
+
+// Grid layouts
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+// Card component
+.card {
+  background: rgba($white, 0.05);
+  border: 1px solid rgba($white, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+  
+  .card-header {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: $white;
+  }
+  
+  .card-body {
+    margin-bottom: 1.5rem;
+    
+    p {
+      color: rgba($white, 0.9);
+    }
+    
+    ul {
+      color: rgba($white, 0.9);
+    }
+  }
+  
+  .card-footer {
+    text-align: center;
+  }
+}
+
+// Badge component
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 20px;
+  background: rgba($white, 0.1);
+  color: $white;
+  margin-bottom: 0.5rem;
+}
+
+.badge-primary {
+  background: $white;
+  color: $black;
+}
+
+// CTA sections
+.cta-section {
+  background: $black;
+  color: $white;
+  padding: 4rem 0;
+  margin: 4rem 0;
+  text-align: center;
+  
+  h2 {
+    color: $white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  p {
+    color: #ccc;
+    font-size: 1.125rem;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn-primary {
+    background: $white;
+    color: $black;
+    border-color: $white;
+    
+    &:hover {
+      background: #f0f0f0;
+      border-color: #f0f0f0;
+    }
+  }
+  
+  .btn-secondary {
+    background: $black;
+    color: $accent;
+    border-color: $accent;
+    
+    &:hover {
+      background: $accent;
+      color: $black;
+    }
+  }
+}
+
+// Section styling
+.section {
+  padding: 4rem 0;
+  
+  &:first-child {
+    padding-top: 2rem;
+  }
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: $black;
+  }
+  
+  .section-subtitle {
+    font-size: 1.125rem;
+    color: $gray;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+// Hero section for pages
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+  background: rgba($white, 0.05);
+  margin-bottom: 3rem;
+  border-bottom: 1px solid rgba($white, 0.1);
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: $white;
+    
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: rgba($white, 0.7);
+    max-width: 600px;
+    margin: 0 auto;
+    
+    @media (max-width: 768px) {
+      font-size: 1.125rem;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<header class="main-header">
+  <div class="header-container">
+    <nav class="main-nav">
+      <a href="{{ '/' | relative_url }}" class="nav-logo">
+        <img src="{{ '/assets/images/atc-logo.png' | relative_url }}" alt="{{ site.title }}">
+      </a>
+      <ul class="nav-menu">
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="current"{% endif %}>Home</a></li>
+        <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about' %}class="current"{% endif %}>About</a></li>
+        <li><a href="{{ '/blog' | relative_url }}" {% if page.url == '/blog' or page.layout == 'post' %}class="current"{% endif %}>Blog</a></li>
+        <li><a href="{{ '/get-involved' | relative_url }}" {% if page.url == '/get-involved' %}class="current"{% endif %}>Get Involved</a></li>
+        <li><a href="{{ '/contact' | relative_url }}" {% if page.url == '/contact' %}class="current"{% endif %}>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

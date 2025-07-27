@@ -1,0 +1,9 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#333333"/>
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">
+    24/7 Workstations
+  </text>
+  <text x="200" y="125" font-family="Arial, sans-serif" font-size="12" fill="#999999" text-anchor="middle" dominant-baseline="middle">
+    High-speed internet &amp; multiple monitors
+  </text>
+</svg>

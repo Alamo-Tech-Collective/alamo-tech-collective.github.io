@@ -1,0 +1,474 @@
+// Button styles
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: $white;
+  color: $black;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid $white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: $font-family;
+
+  &:hover {
+    background: transparent;
+    color: $white;
+    border-color: $white;
+    text-decoration: none;
+  }
+}
+
+// Hero section
+.hero {
+  text-align: center;
+  padding: $spacing-unit * 3 $spacing-unit;
+  background: $black;
+  margin-bottom: $spacing-unit * 3;
+
+  h1 {
+    font-size: 2.5rem;
+    color: $white;
+    margin-bottom: $spacing-unit;
+    
+    @media (max-width: $tablet-width) {
+      font-size: 2rem;
+    }
+    
+    @media (max-width: $mobile-width) {
+      font-size: 1.6rem;
+    }
+  }
+
+  p {
+    margin: $spacing-unit auto;
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .btn {
+    margin-top: $spacing-unit;
+  }
+}
+
+// Quick facts section
+.quick-facts {
+  padding: $spacing-unit * 3 $spacing-unit;
+  background: $black;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    color: $white;
+    margin-bottom: $spacing-unit * 2;
+  }
+
+  .facts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    @media (max-width: $mobile-width) {
+      grid-template-columns: 1fr;
+      gap: $spacing-unit;
+    }
+  }
+
+  .fact {
+    background: $gray-dark;
+    border: 1px solid $gray-medium;
+    padding: 30px 20px;
+    text-align: center;
+    color: $white;
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: $white;
+      color: $black;
+      transform: translateY(-2px);
+    }
+
+    .icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .text {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: $white;
+    }
+  }
+}
+
+// Mission section
+.mission {
+  padding: $spacing-unit * 3 $spacing-unit;
+  text-align: center;
+  background-color: $black;
+  max-width: 800px;
+  margin: 0 auto;
+
+  h2 {
+    color: $light-green;
+    font-size: 2rem;
+    margin-bottom: $spacing-unit;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+  }
+}
+
+// Photo gallery
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: $dark-gray;
+  padding: $spacing-unit;
+  margin: $spacing-unit * 2 0;
+
+  .photo-placeholder {
+    width: 200px;
+    height: 150px;
+    background-color: $gray;
+    color: $medium-gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $light-gray;
+  }
+
+  @media (max-width: $mobile-width) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// Photo grid section
+.photos {
+  padding: $spacing-unit * 3 $spacing-unit;
+  background: $black;
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: $spacing-unit * 2;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .photo-item {
+    position: relative;
+    background: $gray-dark;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: $spacing-unit;
+    border: 1px solid $gray-medium;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: $white;
+      color: $black;
+      transform: translateY(-2px);
+    }
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .photo-caption {
+      padding: $spacing-unit;
+      font-size: 0.9rem;
+      color: $white;
+      text-align: center;
+      transition: color 0.3s ease;
+    }
+
+    &:hover .photo-caption {
+      color: $black;
+    }
+  }
+}
+
+// Newsletter form
+.newsletter-form {
+  margin: $spacing-unit * 2 0;
+  
+  .email-group {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 10px;
+    
+    @media (max-width: $mobile-width) {
+      flex-direction: column;
+    }
+  }
+  
+  input[type="email"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid $gray-medium;
+    background: $black;
+    color: $white;
+    font-family: $font-family;
+    
+    &:focus {
+      outline: none;
+      border-color: $white;
+    }
+    
+    &::placeholder {
+      color: $gray-medium;
+    }
+  }
+  
+  .btn {
+    white-space: nowrap;
+    
+    @media (max-width: $mobile-width) {
+      width: 100%;
+    }
+  }
+}
+
+// CTA section
+.cta {
+  text-align: center;
+  padding: $spacing-unit * 3 $spacing-unit;
+  background: $gray-dark;
+  color: $white;
+  margin: $spacing-unit * 2 0;
+
+  h2 {
+    color: $white;
+    font-size: 2rem;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin-bottom: $spacing-unit;
+  }
+
+  .btn {
+    background: $black;
+    color: $green;
+    border-color: $black;
+
+    &:hover {
+      background: transparent;
+      color: $black;
+      border-color: $black;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+// Newsletter form (additional styling for page content)
+.page-content .newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin: $spacing-unit 0;
+  max-width: 500px;
+
+  input {
+    flex: 1;
+    padding: 10px;
+    background: $dark-gray;
+    border: 1px solid $green;
+    color: $green;
+    font-family: $font-family;
+
+    &::placeholder {
+      color: $light-gray;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px $green;
+    }
+  }
+
+  button {
+    padding: 10px 20px;
+    background: $green;
+    color: $black;
+    border: 2px solid $green;
+    cursor: pointer;
+    font-family: $font-family;
+    font-weight: bold;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: transparent;
+      color: $green;
+    }
+  }
+}
+
+// Blog post styles
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: $spacing-unit * 2 $spacing-unit;
+
+  .post-header {
+    border-bottom: 1px solid $green;
+    padding-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 2;
+
+    .post-title {
+      color: $bright-green;
+      text-shadow: 0 0 10px $green;
+      margin-bottom: $spacing-unit / 2;
+    }
+
+    .post-meta {
+      color: $light-gray;
+      font-size: 0.9rem;
+
+      time {
+        margin-right: $spacing-unit;
+      }
+
+      .post-attendees {
+        color: $green;
+        &::before {
+          content: "👥 ";
+        }
+      }
+    }
+  }
+
+  .post-image {
+    margin: $spacing-unit * 2 0;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid $green;
+      box-shadow: 0 0 20px $green;
+    }
+  }
+
+  .post-content {
+    line-height: 1.8;
+    
+    h2, h3, h4 {
+      color: $light-green;
+      margin-top: $spacing-unit * 2;
+      margin-bottom: $spacing-unit;
+    }
+
+    p {
+      margin-bottom: $spacing-unit;
+    }
+
+    ul, ol {
+      margin-left: $spacing-unit * 2;
+      margin-bottom: $spacing-unit;
+    }
+
+    blockquote {
+      border-left: 3px solid $green;
+      padding-left: $spacing-unit;
+      margin: $spacing-unit 0;
+      color: $light-gray;
+      font-style: italic;
+    }
+  }
+
+  .post-footer {
+    margin-top: $spacing-unit * 3;
+    padding-top: $spacing-unit;
+    border-top: 1px solid $green;
+    text-align: center;
+  }
+}
+
+// Blog index styles
+.blog-posts {
+  max-width: 800px;
+  margin: 0 auto;
+
+  .blog-post-preview {
+    border-bottom: 1px solid $dark-green;
+    padding: $spacing-unit * 2 0;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .post-title {
+      margin-bottom: $spacing-unit / 2;
+
+      a {
+        color: $bright-green;
+        text-decoration: underline;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: $light-green;
+          text-shadow: 0 0 10px $green;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .post-meta {
+      color: $light-gray;
+      font-size: 0.9rem;
+      margin-bottom: $spacing-unit;
+
+      time {
+        margin-right: $spacing-unit;
+      }
+
+      .post-attendees {
+        color: $green;
+        &::before {
+          content: "👥 ";
+        }
+      }
+    }
+
+    .post-excerpt {
+      margin-bottom: $spacing-unit;
+      color: $white;
+    }
+
+    .read-more {
+      color: $bright-green;
+      text-decoration: underline;
+      font-weight: bold;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $light-green;
+        text-shadow: 0 0 5px $green;
+        text-decoration: underline;
+      }
+    }
+  }
+}

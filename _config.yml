@@ -1,0 +1,55 @@
+# Site settings
+title: Alamo Tech Collective
+email: brandon@alamotechcollective.com
+description: >-
+  San Antonio's Tech-Exclusive Hackerspace. Built for people who want to build, 
+  connect, and learn. No corporate noise. No gatekeeping. Just real community.
+baseurl: "/atcSite" # the subpath of your site, e.g. /blog
+url: "https://[YOUR-USERNAME].github.io" # the base hostname & protocol for your site
+github_username: [YOUR-USERNAME]
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CLAUDE.md
