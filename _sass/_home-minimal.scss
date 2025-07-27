@@ -6,6 +6,19 @@
   padding: $spacing-unit * 4 $spacing-unit;
   background: $black;
   
+  .hero-logo {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: 0 auto $spacing-unit * 2;
+    opacity: 0.9;
+    
+    @media (max-width: $mobile-width) {
+      width: 160px;
+      margin-bottom: $spacing-unit;
+    }
+  }
+  
   h1 {
     font-size: 3rem;
     color: $white;
@@ -141,7 +154,6 @@ header {
   border-bottom: 1px solid rgba($white, 0.1);
   
   .logo-img {
-    filter: invert(1);
     opacity: 0.9;
     
     &:hover {
