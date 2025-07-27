@@ -54,7 +54,7 @@ No! We welcome everyone from students to senior engineers. What matters is genui
 No problem. Month-to-month means you can cancel anytime with 30 days notice.
 
 **Can I bring guests?**
-Members can bring guests during business hours for tours or specific events. Overnight guests require prior approval.
+Yes! If you're a member, you can bring a guest with you. It's that simple. You're responsible for your guest while they're in the space.
 
 **Is there parking?**
 Yes, free parking is available for all members.

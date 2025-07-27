@@ -24,7 +24,7 @@ quick_facts:
     icon_img: /assets/images/community-icon.svg
     text: Peer Learning & Meetups
 mission_text: |
-  Alamo Tech Collective exists to build real, lasting infrastructure for San Antonio's tech scene—by and for the people who actually do the work. Our mission is to create a space where builders, engineers, and learners can thrive without needing permission, funding, or corporate validation. We support each other, grow together, and build cool stuff because we believe a stronger tech community benefits everyone.
+  The Alamo Tech Collective is more than a hackerspace—it's a movement to build San Antonio's tech community from the ground up. Our mission goes beyond providing desks and WiFi. We're creating the conditions for a thriving tech ecosystem where knowledge is shared, connections are real, and talent chooses to stay. The hackerspace is our tool; a stronger, more connected San Antonio tech scene is our goal. Because when developers support each other, everyone benefits.
 show_photos: true
 cta_title: Visit the ATC Hackerspace
 cta_subtitle: Explore, connect, and create with like-minded innovators.

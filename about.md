@@ -61,6 +61,24 @@ But it starts with community. Real connections between people doing real work.
 
 The Alamo Tech Collective is that starting point. A physical space where San Antonio's tech community can finally see itself, support itself, and build together.
 
+### The Hackerspace: A Tool, Not the Goal
+
+Let's be clear: **The Alamo Tech Collective is more than a hackerspace.** The physical space is just a tool—a really important one—that helps us achieve something much bigger.
+
+Our true goal is building a thriving, sustainable tech community in San Antonio. One where:
+- **Knowledge flows freely** between experienced developers and newcomers
+- **Projects spawn collaborations** that turn into startups and innovations
+- **Talent chooses to stay** because they've found their tribe
+- **Companies recruit locally** because they know the talent pool is deep and connected
+
+The hackerspace makes this possible by providing:
+- **Collision space** where spontaneous conversations lead to breakthrough ideas
+- **Neutral ground** not owned by any company or institution
+- **Physical anchor** that makes our digital community tangible and real
+- **Growth accelerator** where skills are shared, not hoarded
+
+Think of it this way: If building San Antonio's tech community is like building software, the hackerspace is our development environment. It's where we write the code, debug the problems, and deploy the solutions. But the real product? That's the community itself—connected, empowered, and building amazing things together.
+
 ### Who's Behind This
 
 The Alamo Tech Collective is backed by [Zelifcam](https://zelifcam.net), a local software company deeply committed to creating jobs, developing talent, and building resources right here in San Antonio. In an unprecedented move, Zelifcam has provided the hackerspace facility completely free, ensuring that every dollar of membership fees and community resources goes directly to what really matters: building San Antonio's tech community.

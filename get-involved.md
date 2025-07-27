@@ -8,7 +8,9 @@ permalink: /get-involved/
 
 ## Join San Antonio's Tech Community
 
-The Alamo Tech Collective is now open! We've created a dedicated hackerspace for San Antonio's tech community—a place where software developers, cybersecurity professionals, indie hackers, and tech students can work, learn, and collaborate.
+**Remember: The hackerspace is just our tool. Building a thriving tech community is our mission.**
+
+The Alamo Tech Collective is now open! We've created a dedicated hackerspace for San Antonio's tech community—a place where software developers, cybersecurity professionals, indie hackers, and tech students can work, learn, and collaborate. But more importantly, it's where we're building the connections and culture that will define San Antonio tech for years to come.
 
 ### Membership: $99/month
 
@@ -76,6 +78,9 @@ No problem. Month-to-month means you can cancel anytime with 30 days notice.
 
 **Is there parking?**  
 Yes, free parking is available for all members.
+
+**Can I bring guests?**  
+Yes! If you're a member, you can bring a guest with you. It's that simple. You're responsible for your guest while they're in the space.
 
 ### Ready to Join?
 
