@@ -1,9 +1,12 @@
 # Site settings
-title: Alamo Tech Collective
+title: Alamo Tech Collective - San Antonio's Premier Tech Hackerspace
 email: brandon@alamotechcollective.com
 description: >-
-  San Antonio's Tech-Exclusive Hackerspace. Built for people who want to build, 
-  connect, and learn. No corporate noise. No gatekeeping. Just real community.
+  San Antonio's premier tech-exclusive hackerspace and makerspace. 24/7 access, 
+  high-speed internet, and collaborative workspace for developers, programmers, 
+  and digital creators. Join our thriving tech community today.
+tagline: "Where San Antonio's Tech Community Collaborates and Innovates"
+locale: "en_US"
 baseurl: "/atcSite" # the subpath of your site, e.g. /blog
 url: "https://[YOUR-USERNAME].github.io" # the base hostname & protocol for your site
 github_username: [YOUR-USERNAME]

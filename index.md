@@ -1,6 +1,8 @@
 ---
 layout: home
-title: Home
+title: Alamo Tech Collective - San Antonio's Premier Tech Hackerspace & Makerspace
+description: Join San Antonio's exclusive tech-focused hackerspace on San Pedro Ave. 24/7 access, high-speed internet, collaborative workspace for developers, programmers, and digital creators.
+keywords: hackerspace San Antonio, makerspace San Pedro, tech collective Texas, coworking space developers, programmer community San Antonio
 hero_title: San Antonio's Tech-Exclusive Hackerspace
 hero_subtitle: Built for people who want to build, connect, and learn. No corporate noise. No gatekeeping. Just real community.
 hero_cta_text: Join the Community

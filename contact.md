@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Contact
+title: Contact Alamo Tech Collective - San Antonio Hackerspace Location & Info
+description: Visit Alamo Tech Collective in San Antonio. Schedule tours, join our tech community, or inquire about membership. 24/7 access hackerspace for developers and digital creators.
+keywords: contact Alamo Tech Collective, hackerspace address San Antonio, tech collective membership, join hackerspace Texas, developer community contact
 permalink: /contact/
 ---
 
@@ -11,7 +13,7 @@ Have questions about the Alamo Tech Collective? Want to get involved? We'd love 
 ### Direct Contact
 
 **Email**: [brandon@alamotechcollective.com](mailto:brandon@alamotechcollective.com)  
-**Location**: San Antonio, TX  
+**Location**: 10200 San Pedro Ave, San Antonio, TX 78216  
 **Hours**: 24/7 for members
 
 ### Visit the Hackerspace

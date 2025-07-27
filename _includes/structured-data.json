@@ -6,8 +6,10 @@
   "url": "{{ site.url }}",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "10200 San Pedro Ave",
     "addressLocality": "San Antonio",
     "addressRegion": "TX",
+    "postalCode": "78216",
     "addressCountry": "US"
   },
   "contactPoint": {

@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  
+  <!-- Additional SEO Meta Tags -->
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Alamo Tech Collective">
+  <meta property="og:site_name" content="Alamo Tech Collective">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:site" content="@AlamoTechCo">
+  <meta name="geo.region" content="US-TX">
+  <meta name="geo.placename" content="San Antonio">
+  <meta name="geo.position" content="29.532;-98.495">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   

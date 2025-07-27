@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Membership
+title: Membership Plans - Join San Antonio's Premier Tech Hackerspace
+description: Join Alamo Tech Collective for $99/month. Get 24/7 access to San Antonio's tech-exclusive hackerspace with high-speed internet, workstations, and vibrant developer community.
+keywords: hackerspace membership San Antonio, tech collective pricing, coworking space developers, 24/7 workspace access, programmer community membership
 permalink: /membership/
 ---
 

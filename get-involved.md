@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Get Involved
+title: Get Involved - Join Alamo Tech Collective San Antonio
+description: Join San Antonio's premier tech hackerspace. $99/month for 24/7 access, high-speed internet, and a community of developers. Schedule a tour or become a member today.
+keywords: join hackerspace San Antonio, tech collective membership, get involved tech community, developer workspace membership, hackerspace tour
 permalink: /get-involved/
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Hackerspace
+title: San Antonio Hackerspace - Tech-Exclusive Workspace for Developers
+description: Visit San Antonio's premier tech-exclusive hackerspace. 24/7 access, private VLANs, high-speed internet, and collaborative workspace designed for developers, hackers, and tech professionals.
+keywords: San Antonio hackerspace, tech workspace Texas, developer hackerspace, cybersecurity lab, indie hacker space, tech community workspace
 permalink: /hackerspace/
 ---
 
