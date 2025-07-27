@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building Bridges Through Code: How River City Resources is Transforming Disability Services in San Antonio"
-date: 2024-01-15
+date: 2025-08-01
 categories: [community, accessibility, open-source]
 author: "Alamo Tech Collective"
 excerpt: "Discover how our collective built River City Resources, an open-source platform connecting San Antonio's disability community to essential services through accessible technology."

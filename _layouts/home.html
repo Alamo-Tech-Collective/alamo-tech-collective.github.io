@@ -5,7 +5,7 @@ layout: default
 <section class="hero minimal">
   <h1>{{ page.hero_title | default: "San Antonio's Tech-Exclusive Hackerspace" }}</h1>
   <p class="subtitle">{{ page.hero_subtitle | default: "Built for people who want to build, connect, and learn. No corporate noise. No gatekeeping. Just real community." }}</p>
-  <a href="{{ page.hero_cta_link | default: '#' }}" class="btn btn-minimal">{{ page.hero_cta_text | default: "Join the Community" }}</a>
+  <a href="{{ page.hero_cta_link | default: '#' | relative_url }}" class="btn btn-minimal">{{ page.hero_cta_text | default: "Join the Community" }}</a>
 </section>
 
 <section class="quick-facts minimal">

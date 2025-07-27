@@ -1,8 +1,8 @@
-<header class="main-header">
+<header class="main-header" role="banner">
   <div class="header-container">
-    <nav class="main-nav">
+    <nav class="main-nav" role="navigation" aria-label="Main navigation">
       <a href="{{ '/' | relative_url }}" class="nav-logo">
-        <img src="{{ '/assets/images/atc-logo.png' | relative_url }}" alt="{{ site.title }}">
+        <img src="{{ '/assets/images/atc-logo.png' | relative_url }}" alt="Alamo Tech Collective - Home">
       </a>
       <ul class="nav-menu">
         <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="current"{% endif %}>Home</a></li>
