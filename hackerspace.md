@@ -47,4 +47,3 @@ Want to help shape the space? We're looking for community input on everything fr
 
 [Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn}
 
-Or reach out directly: [brandon@alamotechcollective.com](mailto:brandon@alamotechcollective.com)

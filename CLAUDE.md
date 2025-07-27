@@ -4,14 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based website for the Alamo Tech Collective, a tech-exclusive hackerspace in San Antonio. The site features a retro terminal/hacker aesthetic with green-on-black styling.
+This is a Jekyll-based website for the Alamo Tech Collective, a tech-exclusive hackerspace in San Antonio. The site has transitioned from a retro terminal/hacker aesthetic to a modern, minimalist black-and-white design.
 
 ### Technology Stack
-- **Jekyll 4.3.0** - Static site generator
+- **Jekyll 3.9.3** (via GitHub Pages gem) - Static site generator
 - **Ruby** - Build system (via Bundler)
 - **SCSS** - Styling with Jekyll's built-in compiler
 - **Plugins**: jekyll-feed, jekyll-seo-tag, jekyll-sitemap
 - **No JavaScript framework** - Pure static HTML/CSS
+- **GitHub Pages** - Deployment platform at https://alamo-tech-collective.github.io
 
 ## Development Workflow
 
@@ -58,16 +59,20 @@ JEKYLL_ENV=production bundle exec jekyll build
 - Page content in Markdown files (index.md, about.md, etc.)
 
 ### Visual Style
-- Black background (#000) with green text (#0f0) for terminal aesthetic
-- Monospace font (Courier New) throughout
-- Matrix/hacker-style design with glowing green borders
+- Modern minimalist design with black (#000) and white (#fff) color scheme
+- System font stack (-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif)
+- High contrast for accessibility (21:1 ratio)
 - Responsive design using CSS Grid and Flexbox
+- WCAG AA compliant with accessibility features
 
 ### SCSS Organization
-- `_variables.scss` - Color palette, typography, spacing, breakpoints
+- `_variables.scss` - Color palette (black/white/grays), typography, spacing, breakpoints
 - `_base.scss` - Reset and base element styles
-- `_layout.scss` - Header, footer, and page structure
-- `_components.scss` - Buttons, hero, facts grid, CTA sections
+- `_layout.scss` - Header, footer, navigation, and page structure
+- `_components.scss` - Buttons, hero sections, fact grids, CTA sections
+- `_accessibility.scss` - WCAG compliance features (skip links, focus states, screen reader support)
+- `_home-minimal.scss` - Homepage-specific minimal styling
+- `_minimal-override.scss` - Override styles for the minimal theme
 
 ## Common Tasks
 
@@ -90,9 +95,15 @@ Edit `_config.yml` for:
 - Plugin configuration
 
 ### Creating Blog Posts
-1. Add files to `_posts/` directory (currently not implemented)
+1. Add files to `_posts/` directory
 2. Name format: `YYYY-MM-DD-title.md`
-3. Include post front matter
+3. Include post front matter with required fields:
+   - layout: post
+   - title: "Post Title"
+   - date: YYYY-MM-DD
+   - categories: [community, accessibility, open-source]
+   - author: "Author Name"
+   - attendees: number (optional, for meetup posts)
 
 ## Key Files to Understand
 
@@ -103,7 +114,8 @@ Edit `_config.yml` for:
 ### Content Structure
 - All content pages use Markdown with YAML front matter
 - Navigation is manually maintained in `_includes/header.html`
-- No blog implementation yet despite `_posts/` directory existing
+- Blog posts use categories for URL structure: /category/subcategory/year/month/day/title.html
+- Homepage uses custom layout with configurable hero, facts, and CTA sections
 
 ### Styling Architecture
 The SCSS follows a modular approach:
@@ -114,12 +126,36 @@ The SCSS follows a modular approach:
 
 ## Deployment
 
-The site can be deployed to:
-- GitHub Pages (automatic with proper repository settings)
-- Any static hosting service (Netlify, Vercel, etc.)
-- Traditional web hosting (upload `_site/` contents)
+The site is configured for GitHub Pages deployment at https://alamo-tech-collective.github.io
+
+### GitHub Pages Configuration
+- Uses `github-pages` gem (v228) for compatibility
+- `baseurl` is empty (deploying to root domain)
+- `url` is set to `https://alamo-tech-collective.github.io`
+- Automatic deployment on push to main branch
 
 ### Deployment Notes
 - The `_site/` directory is gitignored
-- No CI/CD configuration files present
-- No environment-specific configurations beyond `JEKYLL_ENV`
+- Jekyll version locked to 3.9.3 (GitHub Pages requirement)
+- All plugins must be GitHub Pages compatible
+- Use `JEKYLL_ENV=production` for production builds
+
+## Architecture Notes
+
+### Page Front Matter Structure
+Pages support extensive front matter for SEO and content configuration:
+- `title`: Page title for SEO
+- `description`: Meta description
+- `keywords`: SEO keywords
+- `permalink`: Custom URL path
+- Homepage specific: `hero_title`, `hero_subtitle`, `hero_cta_text`, `hero_cta_link`, `quick_facts`, `mission_text`, `cta_*` fields
+
+### Accessibility Features
+The site includes comprehensive WCAG AA compliance:
+- Skip navigation links
+- ARIA landmarks and labels
+- High contrast ratios (21:1 for white on black)
+- Keyboard navigation with visible focus indicators
+- Screen reader support with `.sr-only` utility class
+- Minimum touch target sizes (44x44px)
+- Support for prefers-reduced-motion and high-contrast mode

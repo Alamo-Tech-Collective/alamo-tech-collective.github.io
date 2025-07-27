@@ -45,17 +45,6 @@ permalink: /membership/
 
 [Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn}
 
-### Member Testimonials
-
-> "Finally, a workspace where I can focus on code without corporate small talk. The community here actually gets it."
-> — **Sarah K.**, Full-Stack Developer
-
-> "Having 24/7 access means I can work when I'm most productive. Plus, the networking is organic - real conversations about real projects."
-> — **Marcus R.**, DevOps Engineer
-
-> "The electronics lab has been crucial for my IoT projects. Can't get this kind of setup at a regular coworking space."
-> — **Jennifer L.**, Hardware Engineer
-
 ### FAQ
 
 **Is this just for experienced developers?**
@@ -73,4 +62,3 @@ Yes, free parking is available for all members.
 ### Ready to Join?
 
 [Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn}
-[Contact Us](mailto:brandon@alamotechcollective.com){: .btn}

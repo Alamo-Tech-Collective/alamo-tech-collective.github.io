@@ -12,7 +12,6 @@ Have questions about the Alamo Tech Collective? Want to get involved? We'd love 
 
 ### Direct Contact
 
-**Email**: [brandon@alamotechcollective.com](mailto:brandon@alamotechcollective.com)  
 **Location**: 10200 San Pedro Ave, San Antonio, TX 78216  
 **Hours**: 24/7 for members
 
@@ -35,9 +34,7 @@ The best way to experience the Collective is to visit during our open hours or j
 
 ### For Partnerships
 
-Interested in partnering with the Alamo Tech Collective? We're open to collaborations that align with our mission of building a stronger, more connected tech community in San Antonio. 
-
-Reach out via email with your proposal: [brandon@alamotechcollective.com](mailto:brandon@alamotechcollective.com)
+Interested in partnering with the Alamo Tech Collective? We're open to collaborations that align with our mission of building a stronger, more connected tech community in San Antonio.
 
 ### Quick Links
 
