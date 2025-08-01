@@ -7,6 +7,8 @@ author: "Alamo Tech Collective"
 excerpt: "Discover how our collective built River City Resources, an open-source platform connecting San Antonio's disability community to essential services through accessible technology."
 ---
 
+![River City Resources Logo](/assets/images/riverCityResources.png){: style="max-width: 300px; display: block; margin: 0 auto 2rem;"}
+
 In the heart of Texas, a powerful example of how open source technology can directly improve lives is taking shape. River City Resources, a comprehensive disability services directory for San Antonio, demonstrates that the true impact of software development extends far beyond code – it reaches into communities, connects people with essential services, and breaks down barriers that have existed for too long.
 
 Born from the vision of an Alamo Tech Collective member who recognized the urgent need for better accessibility to disability services, this project exemplifies how grassroots tech communities can drive meaningful social change.
