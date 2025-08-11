@@ -10,7 +10,7 @@ keywords: "San Antonio crime data, SATX open data, public safety dashboard, crim
 
 # Visualizing San Antonio's Public Safety Data: SATX-Data Dashboard
 
-Hey San Antonio! We've been working on something pretty cool at our [Build Nights](/events), and we wanted to share it with the community. If you've ever wondered what's happening in your neighborhood or wanted to dig into our city's public safety data, we built a dashboard that makes it actually readable.
+Hey San Antonio! We've been working on something pretty cool at our Build Nights, and we wanted to share it with the community. If you've ever wondered what's happening in your neighborhood or wanted to dig into our city's public safety data, we built a dashboard that makes it actually readable.
 
 ## What We Built: Open Source Crime Analytics for San Antonio
 
@@ -39,7 +39,7 @@ For the nerds in the room (we know you're out there), here's what powers SATX-Da
 - **Docker** for easy deployment and scaling
 - **GitHub Actions** for automated daily data updates
 
-The source code is [available on GitHub](https://github.com/alamotechcollective) for anyone who wants to contribute or deploy their own instance.
+The source code is [available on GitHub](https://github.com/Alamo-Tech-Collective/SATX-Data) for anyone who wants to contribute or deploy their own instance.
 
 ## Beyond Crime: Expanding to All City Data
 
@@ -93,7 +93,7 @@ For developers and researchers who want to use our data, we provide:
 - **Example code** for integrating with your own projects
 - **Docker compose files** for self-hosting
 
-Check our [GitHub repository](https://github.com/alamotechcollective) for full technical documentation and API specs.
+Check our [GitHub repository](https://github.com/Alamo-Tech-Collective/SATX-Data) for full technical documentation and API specs.
 
 ## Future Features: What's Coming Next
 
