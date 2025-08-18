@@ -12,7 +12,14 @@ permalink: /get-involved/
 
 The Alamo Tech Collective is now open! We've created a dedicated hackerspace for San Antonio's tech community—a place where software developers, cybersecurity professionals, indie hackers, and tech students can work, learn, and collaborate. But more importantly, it's where we're building the connections and culture that will define San Antonio tech for years to come.
 
+### Visit the Space
+
+Come see what we're building! Schedule a tour to check out the space and meet our community. We're open 24/7 for members, and we'd love to show you around during regular business hours.
+
+[Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn .btn-primary}
+
 ### Membership: $99/month
+**Special Pricing:** $49/month for students (with .edu email) and veterans
 
 **What You Get:**
 - **24/7 Access** - Work on your schedule with keycard access
@@ -23,14 +30,6 @@ The Alamo Tech Collective is now open! We've created a dedicated hackerspace for
 - **Community** - Work alongside people who actually understand your work
 
 **No contracts. No corporate BS. Just tech.**
-
-[Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn .btn-primary}
-
-### Visit the Space
-
-Not ready to commit? Schedule a tour to see the space and meet our community. We're open 24/7 for members, and we'd love to show you around during regular business hours.
-
-[Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn .btn-primary}
 
 ### Connect with the Community
 
