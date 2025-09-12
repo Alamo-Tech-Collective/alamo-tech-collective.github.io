@@ -23,10 +23,7 @@ Come see what we're building! Schedule a tour to check out the space and meet ou
 
 **What You Get:**
 - **24/7 Access** - Work on your schedule with keycard access
-- **High-Speed Internet** - 1Gbps fiber up/down
-- **Private VLANs** - Secure, isolated networks for your projects
 - **Unlimited Coffee** - Cold brew on tap to fuel your sessions
-- **Lab Space** - Electronics lab with testing equipment
 - **Community** - Work alongside people who actually understand your work
 
 **No contracts. No corporate BS. Just tech.**
