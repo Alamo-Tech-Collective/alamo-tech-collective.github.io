@@ -3,7 +3,7 @@ layout: post
 title: "Open Source Build Night: Tacos, Code, and Cornhole"
 date: 2025-08-13
 categories: [community, open-source, meetup]
-author: "Brandon Howard"
+author: "Alamo Tech Collective"
 attendees: 18
 ---
 

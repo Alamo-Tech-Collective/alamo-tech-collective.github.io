@@ -3,7 +3,7 @@ layout: post
 title: "Byte Night August: Corrina Shows Off Charlotte AI Security Tool"
 date: 2025-08-09
 categories: [community, events, cybersecurity]
-author: "Brandon Howard"
+author: "Alamo Tech Collective"
 excerpt: "August's Byte Night featured Corrina demonstrating Charlotte, an AI-powered security tool for red teaming and vulnerability assessment. Plus great discussions about everything from GlusterFS nightmares to career advice."
 ---
 
