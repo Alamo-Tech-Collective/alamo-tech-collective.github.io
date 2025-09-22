@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prompt Driven Programming Workshop: San Antonio MUD"
-date: 2025-01-22
+date: 2025-09-22
 categories: [workshops, programming, ai]
 author: "Alamo Tech Collective"
 attendees: 12
