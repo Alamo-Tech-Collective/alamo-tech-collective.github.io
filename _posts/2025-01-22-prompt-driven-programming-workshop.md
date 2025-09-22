@@ -18,3 +18,5 @@ Despite the bugs, most participants had working servers by the end of the sessio
 The format worked well. Collaborative, but with everyone free to explore their own path. By the end, we had multiple playable versions of a San Antonio MUD with Alamo Plaza, River Walk, Southtown, the Pearl, and more. Everyone walked away with a better feel for how to use AI assistants for architecture and prompting rather than just one shot code generation.
 
 Thanks to everyone who came out and built with us. We will be doing more of these sessions, so if this sounds like your kind of Saturday, keep an eye on our events calendar.
+
+You can see all the different versions and forks that participants created at [github.com/Alamo-Tech-Collective/SAMud/forks](https://github.com/Alamo-Tech-Collective/SAMud/forks).
