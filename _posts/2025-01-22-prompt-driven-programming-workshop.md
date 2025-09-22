@@ -15,6 +15,8 @@ Throughout the afternoon, people got their servers up and running, tested player
 
 Despite the bugs, most participants had working servers by the end of the session. We were able to connect to each other's worlds, move between rooms, and chat both locally and globally. Some tried pushing the limits by stress testing with extra accounts, experimenting with rate limiting, and even attempting crash scripts. Others added creative touches like over engineered borders, colored text, or combat mechanics.
 
+Looking at the forks, participants took different technical approaches. One developer built their MUD in TypeScript with Docker support for easy deployment. Another implemented an NPC system and moved room data to YAML configuration files instead of hardcoding them. Some used specialized telnet libraries while others rolled their own networking code. The variety of implementations, from Python to TypeScript to Node.js, showed how the same requirements could be approached from multiple angles.
+
 The format worked well. Collaborative, but with everyone free to explore their own path. By the end, we had multiple playable versions of a San Antonio MUD with Alamo Plaza, River Walk, Southtown, the Pearl, and more. Everyone walked away with a better feel for how to use AI assistants for architecture and prompting rather than just one shot code generation.
 
 Thanks to everyone who came out and built with us. We will be doing more of these sessions, so if this sounds like your kind of Saturday, keep an eye on our events calendar.
