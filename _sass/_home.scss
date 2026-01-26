@@ -1,0 +1,217 @@
+// // Cyberpunk home page styles (matching alamotechcollective.com)
+
+@font-face {
+  font-family: 'PixelOperator8';
+  src: url('../fonts/PixelOperator8-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+// // Hero section - cyberpunk style
+.hero {
+  text-align: center;
+  padding: 25px;
+
+  .logo-container {
+    margin: 0 auto 10px;
+    width: 700px;
+    height: 470px;
+
+    .hero-logo {
+      display: block; 
+      margin: 0 auto -15px;
+      opacity: 0.9;
+    }
+    .text-container {
+      padding-right: 30px;
+
+      .logo-text {
+        color: $white;
+        font-family: 'PixelOperator8', $primary-font;
+        font-size: 3.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        text-shadow: 0 0 10px $white;
+      }
+    }
+    .dud {
+      color: $red;
+      text-shadow: none;
+    }
+  }
+  h1 {
+    color: $white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: $secondary-font;
+  }
+  .subtitle {
+    margin-bottom: 50px;
+    font-size: 1rem;
+  }
+  .hero-cta {
+    opacity: 0;
+    animation: fadeInBtn 1s ease-in-out 2s forwards;
+  }
+}
+
+// Quick Facts section - cyberpunk style
+.quick-facts {
+  padding: $spacing-unit * 3 $spacing-unit;
+  
+  .facts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: $spacing-unit * 2;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .fact {
+    text-align: center;
+    background: $black;
+    border: 2px solid $yellow;
+    padding: 30px 10px;
+    transition: all 0.3s; 
+
+    
+    .fact-icon {
+      margin-bottom: $spacing-unit / 2;
+      
+      img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        opacity: 0.9;
+      }
+      
+      .icon {
+        font-size: 2.5rem;
+        display: block;
+      }
+    }
+    
+    .fact-text {
+      font-size: 1rem;
+      color: $yellow;
+      opacity: 0.8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 5px $yellow;
+    }
+  }
+}
+
+.mission {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photos {
+  margin-top: 75px;
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: $spacing-unit * 2;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    .photo-item {
+      border: 2px solid $yellow;
+      background: $black;
+      padding: 25px;
+      transition: all 0.3s;
+  
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .photo-caption {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: $yellow;
+        opacity: 0.8;
+        text-align: center;
+        letter-spacing: 0.5px;
+      }
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 0 5px $yellow;
+      }
+    }
+  }
+}
+
+.cta {
+  margin-top: 75px;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: $spacing-unit / 2;
+    color: $white;
+    text-transform: uppercase;
+    font-family: $secondary-font;
+  }
+
+}
+    
+@media (max-width: $breakpoint-mobile) {
+  .hero {
+    overflow: hidden;
+    height: 100vh;
+    padding: 20px;
+
+    .logo-container {
+      position: relative;
+      width: 80%;
+      top: 150px;
+      margin-bottom: 10px;
+      height: auto;
+      padding-left: 18px;
+      
+      .hero-logo {
+        width: 300px;
+        margin-bottom: 0;
+      }
+      .text-container {
+        position: absolute;
+        padding-right: 0;
+        left: 5px;
+        width: 100%;
+
+        .logo-text {
+          font-size: 1.8rem;
+        }
+      }
+    }
+    h1 {
+      margin-top: 275px;
+      font-size: 1.3rem;
+    }
+  }
+  .quick-facts {
+    padding: 25px;
+    
+    .facts-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: $spacing-unit;
+    }
+  }
+  .mission {
+    width: 100%;
+    padding: 25px;
+  }
+  .photos, .cta {
+    padding: 25px;
+  }
+}

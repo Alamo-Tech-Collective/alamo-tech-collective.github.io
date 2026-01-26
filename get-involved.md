@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Get Involved - Join Alamo Tech Collective San Antonio
+class: main-content
 description: Join San Antonio's premier tech hackerspace. $99/month for 24/7 access, high-speed internet, and a community of developers. Schedule a tour or become a member today.
 keywords: join hackerspace San Antonio, tech collective membership, get involved tech community, developer workspace membership, hackerspace tour
 permalink: /get-involved/
@@ -16,12 +17,20 @@ The Alamo Tech Collective is now open! We've created a dedicated hackerspace for
 
 Come see what we're building! Schedule a tour to check out the space and meet our community. We're open 24/7 for members, and we'd love to show you around during regular business hours.
 
-[Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn .btn-primary}
+<button class="btn b-02">
+    <a href="https://hello.alamotechcollective.com/book/tour" class="cyber-btn">
+    SCHEDULE A TOUR<span aria-hidden>_</span>
+        <span aria-hidden class="cyber-btn__glitch">SCHEDULE A TOUR</span>
+    </a>
+    <span aria-hidden class="btn__tag">B02</span>
+</button>
+
 
 ### Membership: $99/month
 **Special Pricing:** $49/month for students (with .edu email) and veterans
 
 **What You Get:**
+{: .bullet-title }
 - **24/7 Access** - Work on your schedule with keycard access
 - **Unlimited Coffee** - Cold brew on tap to fuel your sessions
 - **Community** - Work alongside people who actually understand your work
@@ -32,22 +41,31 @@ Come see what we're building! Schedule a tour to check out the space and meet ou
 
 Join our Meetup group to stay connected with the San Antonio tech community and get updates about what's happening at the Collective.
 
-[Join on Meetup](https://www.meetup.com/alamotechcollective/){: .btn}
+<button class="btn b-02">
+    <a href="https://www.meetup.com/alamotechcollective/" class="cyber-btn">
+    JOIN ON MEETUP<span aria-hidden>_</span>
+        <span aria-hidden class="cyber-btn__glitch">JOIN ON MEETUP</span>
+    </a>
+    <span aria-hidden class="btn__tag">B02</span>
+</button>
 
 ### Other Ways to Get Involved
 
 **Share Your Knowledge**
+{: .bullet-title }
 - Lead a workshop on your expertise
 - Mentor newcomers to tech
 - Contribute to community open-source projects
 
 **Support the Mission**
+{: .bullet-title }
 - Spread the word about what we're building
 - Connect us with other tech professionals
 - Donate equipment or resources
 - Contribute to our community fund
 
 **Build Together**
+{: .bullet-title }
 - Join project teams working on real solutions
 - Participate in hackathons and build days
 - Collaborate on member-led initiatives
@@ -82,7 +100,13 @@ Yes! If you're a member, you can bring a guest with you. It's that simple. You'r
 
 Take the first step. Schedule a tour or reach out with questions.
 
-[Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn .btn-primary}
+<button class="btn b-02">
+    <a href="https://hello.alamotechcollective.com/book/tour" class="cyber-btn">
+    SCHEDULE A TOUR<span aria-hidden>_</span>
+        <span aria-hidden class="cyber-btn__glitch">SCHEDULE A TOUR</span>
+    </a>
+    <span aria-hidden class="btn__tag">B02</span>
+</button>
 
 ---
 

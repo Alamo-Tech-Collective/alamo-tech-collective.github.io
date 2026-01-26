@@ -4,8 +4,12 @@
 
 @import "variables";
 @import "base";
-@import "layout";
-@import "components";
-@import "accessibility";
-@import "home-minimal";
-@import "minimal-override";
+@import "header";
+@import "footer";
+@import "btn";
+@import "animations";
+@import "home";
+@import "about";
+@import "blog";
+// @import "accessibility";
+// @import "minimal-override";

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post">
+<article class="post main-content">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
@@ -35,7 +35,13 @@ layout: default
 
   <footer class="post-footer">
     <nav class="post-navigation">
-      <a href="{{ '/blog' | relative_url }}" class="btn btn-secondary">← Back to Blog</a>
+      <button class="btn b-01_5">
+        <a href="{{ '/blog' | relative_url }}" class="cyber-btn">
+          BACK TO BLOG<span aria-hidden>_</span>
+          <span aria-hidden class="cyber-btn__glitch">BACK TO BLOG</span>
+        </a>
+        <span aria-hidden class="btn__tag">B01.5</span>
+      </button>
       {% if page.meetup_url %}
         <a href="{{ page.meetup_url }}" target="_blank" rel="noopener" class="btn btn-primary">View on Meetup</a>
       {% endif %}

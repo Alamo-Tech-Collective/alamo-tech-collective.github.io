@@ -1,0 +1,42 @@
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h1 {
+        color: $white;
+        font-family: $secondary-font;
+        text-align: center;
+    }
+    h2 {
+        color: $white;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    h3 {
+        color: $white;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+    p {
+        margin-top: 0;
+    }
+    .bullet-title {
+        margin-top: 20px;
+        margin-bottom: 0;
+        line-height: 0;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .main-content {
+        padding: 25px;
+
+        h1 {
+            font-size: 30px;
+        }
+        .bullet-title {
+            margin-bottom: 0;
+        }
+    }
+}

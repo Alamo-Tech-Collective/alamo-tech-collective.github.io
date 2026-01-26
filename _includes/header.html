@@ -1,16 +1,17 @@
 <header class="main-header" role="banner">
   <div class="header-container">
     <nav class="main-nav" role="navigation" aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}" class="nav-logo">
-        <img src="{{ '/assets/images/atc-logo.png' | relative_url }}" alt="Alamo Tech Collective - Home">
+      <a href="{{ '/' | relative_url }}" class="desktop nav-logo">
+        ALAMO TECH COLLECTIVE
       </a>
       <ul class="nav-menu">
-        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="current"{% endif %}>Home</a></li>
-        <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about' %}class="current"{% endif %}>About</a></li>
-        <li><a href="{{ '/blog' | relative_url }}" {% if page.url == '/blog' or page.layout == 'post' %}class="current"{% endif %}>Blog</a></li>
-        <li><a href="{{ '/get-involved' | relative_url }}" {% if page.url == '/get-involved' %}class="current"{% endif %}>Get Involved</a></li>
-        <li><a href="{{ '/contact' | relative_url }}" {% if page.url == '/contact' %}class="current"{% endif %}>Contact</a></li>
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="current"{% endif %}><i class="fa-solid fa-house mobile"></i><span class="desktop">Home</span></a></li>
+        <li><a href="{{ '/blog' | relative_url }}" {% if page.url == '/blog/' or page.layout == 'post' %}class="current"{% endif %}><i class="fa-solid fa-newspaper mobile"></i><span class="desktop">Blog</span></a></li>
+        <li><a href="{{ '/get-involved' | relative_url }}" {% if page.url == '/get-involved/' %}class="current"{% endif %}><i class="fa-solid fa-user-plus mobile"></i><span class="desktop">Join</span></a></li>
+        <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' %}class="current"{% endif %}><i class="fa-solid fa-circle-info mobile"></i><span class="desktop">About</span></a></li>
+        <li><a href="{{ '/contact' | relative_url }}" {% if page.url == '/contact/' %}class="current"{% endif %}><i class="fa-solid fa-envelope mobile"></i><span class="desktop">Contact</span></a></li>
       </ul>
     </nav>
+    <hr class="desktop">
   </div>
 </header>

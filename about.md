@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Alamo Tech Collective - San Antonio Tech Community Hub
+class: main-content
 description: Discover San Antonio's leading tech hackerspace offering 24/7 access, high-speed internet, collaborative workspaces, and a vibrant community of developers and digital creators.
 keywords: about Alamo Tech Collective, San Antonio tech community, hackerspace benefits, makerspace features, developer workspace, tech collaboration space
 permalink: /about/
@@ -81,7 +82,7 @@ Think of it this way: If building San Antonio's tech community is like building 
 
 ### Who's Behind This
 
-The Alamo Tech Collective is backed by [Zelifcam](https://zelifcam.net), a local software company deeply committed to creating jobs, developing talent, and building resources right here in San Antonio. In an unprecedented move, Zelifcam has provided the hackerspace facility completely free, ensuring that every dollar of membership fees and community resources goes directly to what really matters: building San Antonio's tech community.
+The Alamo Tech Collective is backed by [Zelifcam](https://zelifcam.net){:class="link"}, a local software company deeply committed to creating jobs, developing talent, and building resources right here in San Antonio. In an unprecedented move, Zelifcam has provided the hackerspace facility completely free, ensuring that every dollar of membership fees and community resources goes directly to what really matters: building San Antonio's tech community.
 
 This isn't corporate charity or a marketing play. Zelifcam understands that a thriving tech ecosystem benefits everyone: creating opportunities for developers, attracting innovative companies, and keeping talent in our city. By removing the burden of rent and facility costs, they've made it possible for the Collective to focus entirely on serving its members.
 
@@ -89,4 +90,10 @@ We're developers, security professionals, and tech workers building the communit
 
 Want to be part of it?
 
-[Join the Collective]({{ '/get-involved' | relative_url }}){: .btn .btn-primary}
+<button class="btn b-03">
+    <a href="{{ '/get-involved' | relative_url }}" class="cyber-btn">
+    JOIN THE COLLECTIVE<span aria-hidden>_</span>
+        <span aria-hidden class="cyber-btn__glitch">JOIN THE COLLECTIVE</span>
+    </a>
+    <span aria-hidden class="btn__tag">B03</span>
+</button>

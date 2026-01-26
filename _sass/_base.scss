@@ -5,18 +5,17 @@
 
 body {
   margin: 0;
-  font-family: $font-family;
+  font-family: $primary-font;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  background-color: $black;
-  color: $white;
+  background: radial-gradient(circle at right, black, #670000);
+  color: $red;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $white;
   margin-top: 0;
   line-height: 1.2;
 }
@@ -26,26 +25,65 @@ h2 { font-size: 1.75rem; }
 h3 { font-size: 1.5rem; }
 
 a {
-  color: $white;
-  text-decoration: underline;
-  transition: all 0.3s ease;
-  opacity: 0.9;
-
-  &:hover {
-    opacity: 1;
-    color: $white;
-  }
+  text-decoration: none;
+  color: $blue;
 }
 
-p {
-  margin: $spacing-unit 0;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+li {
+  list-style: none; 
 }
 
 main {
   min-height: calc(100vh - 200px); // Adjust based on header/footer height
+}
+
+.link { 
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+
+  &::after {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: $blue;
+      transition: width 0.3s ease;
+  }
+  &:hover::after {
+      width: 100%;
+  }               
+}
+
+// Screen Adjustments
+// Desktop adjustments
+@media (min-width: $breakpoint-desktop) {
+  .mobile, .tablet { 
+    display: none;
+  }
+  .desktop { 
+    display: block;
+  }
+}
+
+// tablet adjustments
+@media (min-width: calc(#{$breakpoint-mobile} + 1)) and (max-width: $breakpoint-tablet) {
+  .mobile { 
+    display: none;
+  }
+  .tablet, .desktop { 
+    display: block;
+  }
+}
+
+// Mobile adjustments
+@media (max-width: $breakpoint-mobile) {
+  .desktop, .tablet { 
+    display: none;
+  }
+  .mobile { 
+    display: block;
+  }
 }

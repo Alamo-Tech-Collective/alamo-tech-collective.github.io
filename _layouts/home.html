@@ -2,14 +2,25 @@
 layout: default
 ---
 
-<section class="hero minimal">
-  <img src="{{ '/assets/images/atc-logo.png' | relative_url }}" alt="Alamo Tech Collective" class="hero-logo">
+<section class="hero">
+  <div class="logo-container">
+    <img src="{{ '/assets/images/atc-logo-glow.svg' | relative_url }}" alt="Alamo Tech Collective" class="hero-logo">
+    <div class="text-container">
+      <span class="logo-text" data-scramble="ALAMO TECH COLLECTIVE"></span>
+    </div>
+  </div>
   <h1>{{ page.hero_title | default: "San Antonio's Tech-Exclusive Hackerspace" }}</h1>
   <p class="subtitle">{{ page.hero_subtitle | default: "Built for people who want to build, connect, and learn. No corporate noise. No gatekeeping. Just real community." }}</p>
-  <a href="{{ page.hero_cta_link | default: '#' | relative_url }}" class="btn btn-minimal">{{ page.hero_cta_text | default: "Join the Community" }}</a>
+   <button class="btn hero-cta">
+     <a href="{{ page.hero_cta_link | default: '#' | relative_url }}" class="cyber-btn">
+       JOIN US<span aria-hidden>_</span>
+       <span aria-hidden class="cyber-btn__glitch">JOIN US</span>
+     </a>
+     <span aria-hidden class="btn__tag">B00</span>
+   </button>
 </section>
 
-<section class="quick-facts minimal">
+<section class="quick-facts">
   <div class="facts-grid">
     {% for fact in page.quick_facts %}
     <div class="fact">
@@ -26,7 +37,7 @@ layout: default
   </div>
 </section>
 
-<section class="mission minimal">
+<section class="mission">
   <div class="mission-content">
     <p>{{ page.mission_text }}</p>
   </div>
@@ -51,8 +62,14 @@ layout: default
 </section>
 {% endif %}
 
-<section class="cta minimal">
+<section class="cta">
   <h2>{{ page.cta_title | default: "Visit the ATC Hackerspace" }}</h2>
   <p>{{ page.cta_subtitle | default: "Explore, connect, and create with like-minded innovators." }}</p>
-  <a href="{{ page.cta_link | default: '#' }}" class="btn btn-minimal">{{ page.cta_button_text | default: "Schedule a Tour" }}</a>
+  <button class="btn b-02">
+    <a href="{{ page.cta_link | default: '#' }}" class="cyber-btn">
+      SCHEDULE A TOUR<span aria-hidden>_</span>
+      <span aria-hidden class="cyber-btn__glitch">SCHEDULE A TOUR</span>
+    </a>
+    <span aria-hidden class="btn__tag">B02</span>
+  </button>
 </section>
