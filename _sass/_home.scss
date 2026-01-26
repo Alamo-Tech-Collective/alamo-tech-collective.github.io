@@ -176,21 +176,22 @@
       width: 80%;
       top: 150px;
       margin-bottom: 10px;
+      margin-left: 13%;
       height: auto;
-      padding-left: 18px;
+      padding-left: 0;
       
       .hero-logo {
-        width: 300px;
+        width: 280px;
         margin-bottom: 0;
       }
       .text-container {
         position: absolute;
         padding-right: 0;
-        left: 5px;
+        right: 2.2%;
         width: 100%;
 
         .logo-text {
-          font-size: 1.8rem;
+          font-size: clamp(1.5rem, 8vw, 1.6rem);
         }
       }
     }

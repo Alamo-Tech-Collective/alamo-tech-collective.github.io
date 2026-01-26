@@ -199,3 +199,81 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-mobile) {
+  .btn {
+    &.b-01 {
+      .cyber-btn {
+        clip-path: polygon(
+          0 0, 
+          100% 0, 
+          100% 100%, 
+          95% 100%, 
+          95% 90%, 
+          85% 90%, 
+          85% 100%, 
+          14% 100%, 
+          0 51%
+        );
+      }
+      .btn__tag {
+        right: 14px;
+      }
+    }
+    &.b-02 {
+      .cyber-btn {
+        clip-path: polygon(
+          0 0, 
+          100% 0, 
+          100% 100%, 
+          95% 100%, 
+          95% 90%, 
+          85% 90%, 
+          85% 100%, 
+          11% 100%, 
+          0 52%
+        );
+      }
+      .btn__tag {
+        right: 20px;
+      }
+    }
+    &.b-03 {
+      .cyber-btn {
+        clip-path: polygon(
+          0 0, 
+          100% 0, 
+          100% 100%, 
+          95% 100%, 
+          95% 90%, 
+          85% 90%, 
+          85% 100%, 
+          10% 100%, 
+          0 50%
+        );
+      }
+      .btn__tag {
+        right: 23px;
+      }
+    }
+    .cyber-btn {
+      padding: 15px 40px;
+      font-size: 20px;
+      clip-path: polygon(
+        0 0, 
+        100% 0, 
+        100% 100%, 
+        95% 100%, 
+        95% 90%, 
+        80% 90%, 
+        80% 100%, 
+        15% 100%, 
+        0 57.5%
+      );
+    }
+    &__tag {
+      bottom: -19px;
+      right: 15px;
+    }
+  }
+}
