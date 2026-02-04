@@ -261,6 +261,9 @@
 .post-footer {
     margin: 0 auto;
 }
+.post strong {
+    color: $white;
+}
 
 @media (max-width: $breakpoint-mobile) {
     .blog-content {

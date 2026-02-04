@@ -66,17 +66,19 @@ JEKYLL_ENV=production bundle exec jekyll build
   - PixelOperator8 (custom font) for logo text
   - System fonts for body text
 - Animated elements: Text scramble effect, glitch buttons, fade-in animations, hover border effects
-- Responsive design using CSS Grid and Flexbox
+- Responsive design using CSS Grid and Flexbox with mobile-first approach
 - Interactive components with hover effects and clip-path shapes
+- Font Awesome icons for mobile navigation
+- Favicon: `logo_no-text.ico` in assets/images/
 
 ### SCSS Organization
-- `_variables.scss` - Color palette (cyberpunk theme), typography, spacing, breakpoints
-- `_base.scss` - Reset and base element styles
-- `_header.scss` - Sticky header with scroll-based hide/show behavior, red glow border effect
+- `_variables.scss` - Color palette (cyberpunk theme), typography, spacing, breakpoints ($breakpoint-desktop: 1025px, $breakpoint-tablet: 1024px, $breakpoint-mobile: 768px)
+- `_base.scss` - Reset and base element styles, includes responsive visibility classes (.desktop, .tablet, .mobile)
+- `_header.scss` - Sticky header (desktop: top, mobile: fixed bottom), scroll-based hide/show behavior (disabled on mobile), red glow border effect, Font Awesome icons on mobile navigation
 - `_btn.scss` - Cyberpunk-style buttons (.cyber-btn) with clip-path chamfered corners, glitch effects on hover, multiple variants (b-01, b-01_5, b-02, b-03)
-- `_home.scss` - Homepage sections (hero with PixelOperator8 logo text, facts, photos, CTA) with cyberpunk styling, includes @font-face declaration
+- `_home.scss` - Homepage sections (hero with PixelOperator8 logo text, facts, photos, CTA) with cyberpunk styling, includes @font-face declaration, hero CTA button fades in after 2 seconds
 - `_about.scss` - About page styling
-- `_blog.scss` - Blog page layout with sidebar, search, categories, and post cards
+- `_blog.scss` - Blog page layout with sidebar, search, categories, and post cards, responsive word-breaking for random-id hash
 - `_footer.scss` - Footer styling with animated border-bottom on link hover (grows left to right)
 - `_animations.scss` - Keyframe animations (fadeInBtn, glitch effects)
 
@@ -125,18 +127,18 @@ Edit `_config.yml` for:
 
 ### Styling Architecture
 The SCSS follows a modular approach:
-1. `_variables.scss` - Design tokens (cyberpunk color palette, fonts, spacing)
-2. `_base.scss` - HTML element resets and defaults
-3. `_header.scss` - Header with sticky positioning, scroll behavior, glow effects
+1. `_variables.scss` - Design tokens (cyberpunk color palette, fonts, spacing, breakpoints)
+2. `_base.scss` - HTML element resets and defaults, responsive visibility classes
+3. `_header.scss` - Header with responsive positioning (top/bottom), scroll behavior, glow effects, mobile icons
 4. `_btn.scss` - Interactive button components with glitch effects and animations
-5. `_home.scss` - Homepage-specific layouts and styling
+5. `_home.scss` - Homepage-specific layouts and styling with animations
 6. `_about.scss` - About page layouts and styling
-7. `_blog.scss` - Blog page layouts and styling
+7. `_blog.scss` - Blog page layouts and styling with responsive word-breaking
 8. `_footer.scss` - Footer styling with hover effects
 9. `_animations.scss` - CSS animations and keyframes
 
 ### JavaScript Features
-The site includes custom JavaScript in `assets/js/text.js`:
+The site includes custom JavaScript in `assets/js/main.js`:
 - **TextScramble**: Animated text reveal effect
   - Dynamic initialization via `data-scramble` attribute
   - Configuration options:
@@ -145,7 +147,7 @@ The site includes custom JavaScript in `assets/js/text.js`:
     - `data-scramble-loop` - Whether to repeat (true/false, default: false)
     - `data-scramble-interval` - Loop interval (ms, default: 3000)
   - Usage: `<span data-scramble="YOUR TEXT"></span>`
-- **Header Scroll Behavior**: Hides header when scrolling down >50px, shows when scrolling up >100px
+- **Header Scroll Behavior**: Hides header when scrolling down >50px (translateY(-100%)), shows when scrolling up >100px (desktop only, disabled on mobile ≤768px)
 - Uses requestAnimationFrame for smooth animations
 
 ## Deployment
@@ -177,10 +179,17 @@ Pages support extensive front matter for SEO and content configuration:
 ### Key Design Components
 
 #### Header
-- Sticky positioning with smooth hide/show on scroll
-- Red glow effect using box-shadow on `<hr>` element
+- **Desktop**: Sticky top positioning with smooth hide/show on scroll, displays text navigation labels
+- **Mobile**: Fixed bottom positioning (native mobile app feel), Font Awesome icons instead of text, scroll behavior disabled
+- Red glow effect using box-shadow on `<hr>` element (desktop only)
 - Active page highlighting (cyan color) on navigation links
 - Orbitron font for logo and navigation
+- Navigation icons (mobile only):
+  - Home: fa-house
+  - Blog: fa-newspaper
+  - Join: fa-user-plus
+  - About: fa-circle-info
+  - Contact: fa-envelope
 
 #### Cyberpunk Buttons (.cyber-btn)
 - Custom clip-path for chamfered corners (angled edges)
@@ -199,19 +208,21 @@ Pages support extensive front matter for SEO and content configuration:
 - **Hero**:
   - Logo SVG with text scramble animation using PixelOperator8 font
   - Title, subtitle, and JOIN US button (b-00 variant)
+  - JOIN US button fades in after 2 seconds using fadeInBtn animation
+  - Mobile: Logo container shifted right with margin-left: 13%
 - **Quick Facts**: Grid layout with yellow-bordered cards, hover lift effect
 - **Photos**: Uniform image heights (200px) with object-fit: cover, yellow borders, hover lift effect
 - **CTA**: Schedule tour button with cyan accent (b-02 variant)
 
 #### Blog Page
-- **Layout**: Two-column grid (340px sidebar + flexible main content)
+- **Layout**: Two-column grid (340px sidebar + flexible main content), single column on mobile
 - **Sidebar**:
   - "BLOGS" title with red glow separator
-  - Search box with red border and clip-path styling
-  - Categories list with hover effects and active state highlighting
-  - Sticky positioning (top: 143px)
+  - Search box with red border, Font Awesome magnifying glass icon, and clip-path styling
+  - Categories list with hover effects and active state highlighting (desktop only)
+  - Sticky positioning (top: 143px on desktop)
 - **Main Content**:
-  - Random ID with scramble effect
+  - Random ID with scramble effect (responsive word-breaking on mobile with fixed 130px label width)
   - "# COMMIT_LOG" title with red glow separator
   - Blog post cards with:
     - Yellow borders with glow on hover
@@ -223,7 +234,7 @@ Pages support extensive front matter for SEO and content configuration:
 - **Interactive Features**:
   - Search functionality (filters by title, excerpt, or categories)
   - Category filtering with active state
-  - Responsive design (single column on mobile)
+  - Responsive design (single column on mobile, categories hidden on mobile)
 
 #### Footer
 - Hash (#) prefixes on all links for cyberpunk aesthetic
