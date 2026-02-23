@@ -77,3 +77,19 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-small) {
+  .main-header .header-container {
+    .main-nav {
+      .nav-logo {
+        font-size: 1rem;
+      }
+      .nav-menu {
+        gap: $spacing-unit * 1.5;
+        a {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

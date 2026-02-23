@@ -216,3 +216,17 @@
     padding: 25px;
   }
 }
+
+@media (max-width: $breakpoint-small) {
+  .hero {
+    .logo-container {
+      top: 25px;
+    }
+    h1 {
+      margin-top: 110px;
+    }
+    .subtitle {
+      margin-bottom: 25px;
+    }
+  }
+}

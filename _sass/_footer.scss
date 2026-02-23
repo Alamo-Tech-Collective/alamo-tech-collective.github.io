@@ -126,3 +126,15 @@
         }
     }
 }
+
+@media (max-width: $breakpoint-small) {
+    .site-footer .container .footer-content .footer-section.info {
+        clip-path: polygon(
+            0 0, 
+            100% 0, 
+            100% 80%, 
+            84.5% 100%,
+            0 100%
+        );
+    }
+}
