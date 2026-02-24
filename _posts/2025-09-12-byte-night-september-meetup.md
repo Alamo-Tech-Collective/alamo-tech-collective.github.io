@@ -2,7 +2,7 @@
 layout: post
 title: "Byte Night September: AI Agents, Game Dev, and Career Conversations"
 date: 2025-09-12
-categories: [community, meetups]
+categories: [community, meetup]
 author: "Alamo Tech Collective"
 attendees: 18
 ---
