@@ -20,6 +20,10 @@
         margin: 0 auto;
         padding: 40px 20px;
 
+        code {
+            background: #222;
+        }
+
         @media (max-width: $breakpoint-tablet) {
             grid-template-columns: 1fr;
             gap: 30px;
