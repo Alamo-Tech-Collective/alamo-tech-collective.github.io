@@ -30,7 +30,11 @@ a {
 }
 
 li {
-  list-style: none; 
+  list-style: none;
+}
+
+.post li {
+  list-style: disc;
 }
 
 main {
