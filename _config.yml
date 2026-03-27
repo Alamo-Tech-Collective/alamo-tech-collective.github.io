@@ -57,3 +57,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - CLAUDE.md
+  - scripts/
