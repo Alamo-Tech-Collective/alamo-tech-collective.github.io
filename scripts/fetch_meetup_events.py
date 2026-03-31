@@ -41,10 +41,6 @@ query($urlname: String!) {
           duration
           eventUrl
           description
-          rsvps {
-            totalCount
-          }
-          maxRsvp
           venue {
             name
             address
@@ -159,6 +155,18 @@ def fetch_events(access_token: str) -> list[dict]:
 # Data transformation
 # ---------------------------------------------------------------------------
 
+def build_venue_address(venue: dict | None) -> str | None:
+    """Join address parts, skipping empty values."""
+    if not venue:
+        return None
+    parts = [
+        venue.get("address", ""),
+        venue.get("city", ""),
+        venue.get("state", ""),
+        venue.get("postalCode", ""),
+    ]
+    return ", ".join(p for p in parts if p)
+
 
 def build_image_url(photo: dict | None) -> str | None:
     """Construct the highres image URL from featuredEventPhoto fields."""
@@ -176,25 +184,22 @@ def transform_event(node: dict) -> dict:
     venue_raw = node.get("venue")
     photo_raw = node.get("featuredEventPhoto")
 
+    venue_address = build_venue_address(venue_raw)
     venue = None
     if venue_raw:
         venue = {
             "name": venue_raw.get("name"),
-            "address": venue_raw.get("address"),
-            "city": venue_raw.get("city"),
-            "state": venue_raw.get("state"),
+            "address": venue_address,
         }
 
     return {
         "title": node.get("title"),
-        "dateTime": node.get("dateTime"),
-        "endTime": node.get("endTime"),
-        "eventUrl": node.get("eventUrl"),
-        "description": node.get("description"),
+        "date": node.get("dateTime"),
+        "end_date": node.get("endTime"),
         "venue": venue,
-        "rsvpCount": (node.get("rsvps") or {}).get("totalCount"),
-        "maxRsvp": node.get("maxRsvp"),
-        "photo": build_image_url(photo_raw),
+        "url": node.get("eventUrl"),
+        "description": node.get("description"),
+        "image": build_image_url(photo_raw),
     }
 
 
@@ -234,7 +239,7 @@ def main() -> None:
     print(f"Fetched {len(raw_events)} event(s).")
 
     events = [transform_event(node) for node in raw_events]
-    events.sort(key=lambda e: e.get("dateTime") or "")
+    events.sort(key=lambda e: e.get("date") or "")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(events, indent=2, ensure_ascii=False) + "\n")
