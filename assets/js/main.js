@@ -98,6 +98,27 @@ if (document.readyState === 'loading') {
 }
 
 // ——————————————————————————————————————————————————
+// RSVP Bar Width Setter
+// ——————————————————————————————————————————————————
+
+function initializeRsvpBars() {
+  const rsvpBars = document.querySelectorAll('.rsvp-bar[data-width]');
+  rsvpBars.forEach(bar => {
+    const width = bar.dataset.width;
+    if (width) {
+      bar.style.width = `${width}%`;
+    }
+  });
+}
+
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeRsvpBars);
+} else {
+  initializeRsvpBars();
+}
+
+// ——————————————————————————————————————————————————
 // Header hide/show on scroll
 // ——————————————————————————————————————————————————
 

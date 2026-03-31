@@ -1,0 +1,83 @@
+{% assign events = site.data.events %}
+{% assign dev = site.data.dev_mode.dev_mode %}
+
+<section class="atc-events">
+  <!-- Dev banner will only display if dev mode is enabled -->
+  {% if dev %}
+    <div class="dev-banner">
+      ⚠ DEV MODE — dummy data · set <code>dev_mode: false</code> in <code>_data/dev_mode.yml</code> to go live
+    </div>
+  {% endif %}
+
+  <span  class="random-id">Random_id: <div data-scramble="be304957279e475fb8d4774a7f139eff5f4452f8cf8eda2373ccf01454841bb9" class="data-scramble"></div>
+  </span>
+
+  <h2 class="blog-title"># EVENT_LOOP</h2>
+  <hr>
+
+  {% if events.size == 0 %}
+    <p class="no-events">Nothing scheduled yet — check back soon or <a href="https://www.meetup.com/alamotechcollective/" target="_blank" rel="noopener">follow us on Meetup</a>.</p>
+  {% else %}
+    <div class="events-grid">
+      {% for event in events %}
+        <article class="event-card">
+
+          <div class="event-date-block">
+            <span class="event-month">{{ event.dateTime | date: "%b" | upcase }}</span>
+            <span class="event-day">{{ event.dateTime | date: "%-d" }}</span>
+          </div>
+
+          <div class="event-body">
+            <div class="event-type-tag">
+              {% assign title_lower = event.title | downcase %}
+              {% if title_lower contains "hack night" %}HACK NIGHT
+              {% elsif title_lower contains "workshop" %}WORKSHOP
+              {% elsif title_lower contains "tech talk" %}TECH TALK
+              {% elsif title_lower contains "after dark" %}AFTER DARK
+              {% elsif title_lower contains "panel" %}PANEL
+              {% elsif title_lower contains "ctf" %}CTF
+              {% else %}EVENT
+              {% endif %}
+            </div>
+
+            <h3 class="event-title">
+              <a href="{{ event.eventUrl }}" target="_blank" rel="noopener">{{ event.title }}</a>
+            </h3>
+
+            <p class="event-meta">
+              <span class="meta-item">{{ event.dateTime | date: "%-I:%M %p" }}
+                {% if event.endTime %} &ndash; {{ event.endTime | date: "%-I:%M %p" }}{% endif %}
+              </span>
+            </p>
+
+            {% if event.description %}
+            <p class="event-description">{{ event.description | truncatewords: 30 }}</p>
+            {% endif %}
+
+            <div class="event-footer">
+              {% if event.rsvpCount %}
+                <span class="rsvp-count">
+                  {{ event.rsvpCount }} going
+                  {% if event.maxRsvp %}
+                    {% assign rsvp_percentage = event.rsvpCount | times: 100 | divided_by: event.maxRsvp %}
+                    <span class="rsvp-bar-wrap">
+                      <span class="rsvp-bar" data-width="{{ rsvp_percentage }}"></span>
+                    </span>
+                  {% endif %}
+                </span>
+              {% endif %}
+              <button class="btn event-cta">
+                <a href="{{ event.eventUrl }}" target="_blank" rel="noopener" class="cyber-btn">
+                  RSVP<span aria-hidden>_</span>
+                  <span aria-hidden class="cyber-btn__glitch">RSVP</span>
+                </a>
+                <span aria-hidden class="btn__tag">B00</span>
+              </button>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+</section>

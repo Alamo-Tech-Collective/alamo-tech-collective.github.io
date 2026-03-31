@@ -38,10 +38,10 @@
           transition: color 0.3s ease;
 
           &:hover {
-            color: $blue;
+            color: $cyan;
           }
           &.current {
-            color: $blue;
+            color: $cyan;
             font-weight: 600;
           }
         }

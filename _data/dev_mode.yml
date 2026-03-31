@@ -1,0 +1,5 @@
+# Set to true while developing locally or waiting on live API credentials.
+# When true, the events calendar will render a DEV banner so you know
+# you're looking at dummy data. Set to false when the GitHub Actions
+# workflow is live and _data/events.json is being populated by Meetup.
+dev_mode: false
