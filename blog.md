@@ -8,9 +8,12 @@ permalink: /blog/
 ---
 
 <div class="blog-container">
+  <a href="/" class="logo mobile">
+    <img src="../assets/images/atc-logo-glow.svg" alt="Alamo Tech Collective">
+  </a>
   <aside class="blog-sidebar">
-    <h2 class="sidebar-title">BLOGS</h2>
-    <hr />
+    <h2 class="sidebar-title desktop">BLOGS</h2>
+    <hr class="desktop" />
     <div class="search-box">
     <i class="fa-sharp fa-solid fa-magnifying-glass search-icon"></i>
       <input type="text" id="search-input" placeholder="Search..." />

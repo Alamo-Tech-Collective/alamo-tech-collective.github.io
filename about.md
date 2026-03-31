@@ -1,11 +1,16 @@
 ---
 layout: page
-title: About Alamo Tech Collective - San Antonio Tech Community Hub
 class: main-content
 description: Discover San Antonio's leading tech hackerspace offering 24/7 access, high-speed internet, collaborative workspaces, and a vibrant community of developers and digital creators.
 keywords: about Alamo Tech Collective, San Antonio tech community, hackerspace benefits, makerspace features, developer workspace, tech collaboration space
 permalink: /about/
 ---
+
+<a href="/" class="logo mobile">
+<img src="../assets/images/atc-logo-glow.svg" alt="Alamo Tech Collective">
+</a>
+
+<h1>About Alamo Tech Collective - San Antonio Tech Community Hub</h1>
 
 ## The Space San Antonio Tech Deserves
 

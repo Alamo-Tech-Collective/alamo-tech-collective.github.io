@@ -61,6 +61,17 @@ main {
   }               
 }
 
+.logo {
+    width: 150px;
+    margin: 0 auto 20px;
+
+    img {
+        padding-left: 10px;
+        width: 100%;
+        height: auto;
+    }
+}
+
 // Screen Adjustments
 // Desktop adjustments
 @media (min-width: $breakpoint-desktop) {

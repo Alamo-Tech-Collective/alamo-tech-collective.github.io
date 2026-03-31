@@ -1,11 +1,16 @@
 ---
 layout: page
-title: Contact Alamo Tech Collective - San Antonio Hackerspace Location & Info
 class: main-content
 description: Visit Alamo Tech Collective in San Antonio. Schedule tours, join our tech community, or inquire about membership. 24/7 access hackerspace for developers and digital creators.
 keywords: contact Alamo Tech Collective, hackerspace address San Antonio, tech collective membership, join hackerspace Texas, developer community contact
 permalink: /contact/
 ---
+
+<a href="/" class="logo mobile">
+<img src="../assets/images/atc-logo-glow.svg" alt="Alamo Tech Collective">
+</a>
+
+<h1>Contact Alamo Tech Collective - San Antonio Hackerspace Location & Info</h1>
 
 ## Get in Touch
 Have questions about the Alamo Tech Collective? Want to get involved? We'd love to hear from you.

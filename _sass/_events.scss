@@ -1,6 +1,6 @@
 .event-content {
     max-width: 1000px;
-    margin: 40px auto;
+    margin: 0 auto;
 
     h1 {
         display : none;
@@ -19,7 +19,7 @@
             margin-bottom: 10px;
             letter-spacing: 0.5px;
         }
-        .blog-title {
+        .event-title {
             font-family: $secondary-font;
             font-size: 36px;
             font-weight: 700;
@@ -38,13 +38,14 @@
             gap: 30px;
 
             .event-card {
-                background: $black;
-                border: 2px solid $yellow;
-                padding: 30px;
-                transition: all 0.3s ease;
                 position: relative;
                 display: flex;
+                padding: 30px;
+                height: 250px;
                 gap: 30px;
+                background: rgba($black, 0.8);
+                border: 2px solid $yellow;
+                transition: all 0.3s ease;
 
                 &:hover {
                     box-shadow: 0 0 5px $yellow;
@@ -60,6 +61,14 @@
                         font-size: 60px;
                         font-weight: 700;
                         color: $white;
+                    }
+                }
+                .event-image {
+                    img {
+                        width: 200px;
+                        height: 100%;
+                        object-fit: cover;
+                        border: 2px solid #000;
                     }
                 }
                 .event-body {
@@ -97,63 +106,33 @@
                     }
                     .event-description {
                         line-height: 1.3;
+                        margin-bottom: 0;
                     }
-
                     .event-footer {
                         display: flex;
-                        justify-content: space-between;
+                        justify-content: flex-end;
                         align-items: center;
 
-                        .rsvp-count {
-                            display: flex;
-                            align-items: center;
-                            gap: 10px;
-                            font-size: 14px;
-                            color: $cyan;
-                            font-weight: 600;
-
-                            .rsvp-bar-wrap {
-                                display: inline-block;
-                                width: 100px;
-                                height: 8px;
-                                background: rgba($cyan, 0.1);
-                                border: 1px solid $cyan;
-                                position: relative;
-                                overflow: hidden;
-
-                                .rsvp-bar {
-                                    display: block;
-                                    height: 100%;
-                                    background: $cyan;
-                                    box-shadow: 0 0 10px $cyan;
-                                    transition: width 0.6s ease;
-                                    width: 0;
-                                }
-                            }
-
-                            .rsvp-max {
-                                color: rgba($white, 0.4);
-                            }
-                        }
-                        .btn {
-                            margin: 0 !important;
-                        }
                         .event-cta {
+                            margin: 0 !important;
+
                             .cyber-btn {
+                                padding: 10px 50px;
                                 clip-path: polygon(
                                     0 0, 
                                     100% 0, 
                                     100% 100%, 
                                     95% 100%, 
                                     95% 40%, 
-                                    85% 40%, 
-                                    85% 100%, 
-                                    13.5% 100%, 
-                                    0 59%
+                                    77% 40%, 
+                                    77% 100%, 
+                                    14% 100%, 
+                                    0 51%
                                 ) !important;
                             }
                             .btn__tag {
-                                right: 14.5px !important;
+                                bottom: -13px !important;
+                                right: 20px !important;
                             }
                         }
                     }
@@ -166,4 +145,79 @@
     font-size: 0.8rem;
     color: rgba($white, 0.7);
     margin-top: 10px;
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .event-content {
+        max-width: 400px;
+
+        .atc-events {
+
+
+            .random-id {
+                overflow-wrap: break-word;
+                word-break: break-all;
+
+                > *:first-child {
+                    width: 130px;
+                }
+                .data-scramble {
+                    flex: 1;
+                }
+            }
+            .event-title {
+                font-size: 30px;
+            }
+            .events-grid {
+                .event-card {
+                    flex-direction: column;
+                    height: auto;
+
+                    .event-date-block {
+                        .event-month, .event-day {
+                            font-size: 20px;
+                        }
+                    }
+                    .event-image {
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .event-body {
+                        .event-title {
+                            font-size: 20px;
+                            line-height: 1.2;
+                        }
+                        .event-footer {
+                            justify-content: center;
+
+                            .event-cta {
+                                margin: 20px 0 0 !important;
+
+                                .cyber-btn {
+                                    padding: 10px 100px;
+                                    clip-path: polygon(
+                                        0 0, 
+                                        100% 0, 
+                                        100% 100%, 
+                                        95% 100%, 
+                                        95% 40%, 
+                                        82% 20%, 
+                                        82% 100%, 
+                                        9.3% 100%, 
+                                        0 44%
+                                    ) !important;
+                                }
+                                .btn__tag {
+                                    bottom: -13.5px !important;
+                                    right: 25px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
