@@ -11,6 +11,11 @@
     .atc-events {
         padding: 20px;
 
+        .additional-title {
+            margin-top: 40px;
+            padding-bottom: 10px;
+        }
+
         .random-id {
             display: flex;
             color: rgba($red, 0.6);
@@ -73,6 +78,7 @@
                 }
                 .event-body {
                     line-height: 1;
+                    position: relative;
 
                     .event-type-tag {
                         background: rgba(79, 0, 0, 0.5);
@@ -109,9 +115,12 @@
                         margin-bottom: 0;
                     }
                     .event-footer {
-                        display: flex;
-                        justify-content: flex-end;
-                        align-items: center;
+                        // display: flex;
+                        // justify-content: flex-end;
+                        // align-items: center;
+                        position: absolute;
+                        bottom: 0px;
+                        right: 0px;
 
                         .event-cta {
                             margin: 0 !important;

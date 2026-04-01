@@ -1,0 +1,38 @@
+[
+  {
+    "title": "AI April Kickoff Party!",
+    "date": "2026-04-03T18:30:00-05:00",
+    "end_date": "2026-04-03T21:30:00-05:00",
+    "venue": {
+      "name": "Zelifcam",
+      "address": "10200 San Pedro Ave, San Antonio, TX, 78216"
+    },
+    "url": "https://www.meetup.com/meetup-group-umecjcqo/events/313286244/",
+    "description": "The machines are coming. Might as well throw them a party. AI April kicks off with a launch party that's less 'corporate keynote' and more 'the future showed up and brought a DJ.' We're taking over the Alamo Tech Collective to celebrate a month-long AI conference, San Antonio style.",
+    "image": "../assets/images/ai-april.webp"
+  },
+  {
+    "title": "Alamo Python Monthly Tech Talk",
+    "date": "2026-04-07T17:30:00-05:00",
+    "end_date": "2026-04-07T20:30:00-05:00",
+    "venue": {
+      "name": "Zelifcam",
+      "address": "10200 San Pedro Ave, San Antonio, TX, 78216"
+    },
+    "url": "https://www.meetup.com/alamo-python/events/313738353/",
+    "description": "The machines are coming. Might as well throw them a party. AI April kicks off with a launch party that's less 'corporate keynote' and more 'the future showed up and brought a DJ.' We're taking over the Alamo Tech Collective to celebrate a month-long AI conference, San Antonio style.",
+    "image": "../assets/images/openclaw.png"
+  },
+  {
+    "title": "AI April: Zero to Hero with GitHub Copilot",
+    "date": "2026-04-18T10:00:00-05:00",
+    "end_date": "2026-04-18T13:00:00-05:00",
+    "venue": {
+      "name": "Zelifcam",
+      "address": "10200 San Pedro Ave, San Antonio, TX, 78216"
+    },
+    "url": "https://www.meetup.com/meetup-group-umecjcqo/events/313510254/",
+    "description": "Many underuse GitHub Copilot, using it as a fancy autocomplete, while others put too much trust into it and ship unverified code. In this hands-on workshop, you'll learn how effective teams use GitHub Copilot for real results. Based on enterprise experience coaching teams on AI adoption, we'll cover key GitHub Copilot features, effective prompting techniques, and practical workflows for reliable, productive AI-assisted development.",
+    "image": "../assets/images/hero.png"
+  }
+]

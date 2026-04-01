@@ -1,4 +1,5 @@
 {% assign events = site.data.events %}
+{% assign additional_events = site.data.additional_events %}
 {% assign dev = site.data.dev_mode.dev_mode %}
 
 <section class="atc-events">
@@ -18,9 +19,7 @@
   <h2 class="event-title"># EVENT_LOOP</h2>
   <hr>
 
-  {% if events.size == 0 %}
-    <p class="no-events">Nothing scheduled yet — check back soon or <a href="https://www.meetup.com/alamotechcollective/" target="_blank" rel="noopener">follow us on Meetup</a>.</p>
-  {% else %}
+  {% if events.size > 0 %}
     <div class="events-grid">
       {% for event in events %}
         <article class="event-card">
@@ -72,83 +71,58 @@
             </div>
           </div>
         </article>
-        {% endfor %}
-        <!-- AI April Events not listed in Alamo Tech Collective -->
+      {% endfor %}
+      {% if additional_events.size > 0 %}
+      <h2 class="additional-title">Additional Events</h2>
+      {% endif %}
+    </div>
+    {% endif %}
+
+  <!-- Additional Events -->
+  {% if additional_events %}
+    <div class="events-grid">
+      {% for event in additional_events %}
         <article class="event-card">
-            <div class="event-date-block">
-              <span class="event-month">APR</span>
-              <span class="event-day">03</span>
+          <div class="event-date-block">
+            <span class="event-month">{{ event.date | date: "%b" | upcase }}</span>
+            <span class="event-day">{{ event.date | date: "%-d" }}</span>
+          </div>  
+
+          {% if event.image %}
+          <div class="event-image">
+            <img src="{{ event.image }}" alt="{{ event.title }}">
+          </div>
+          {% endif %}
+
+          <div class="event-body">
+            <div class="event-type-tag">EVENT</div>
+
+            <h3 class="event-title">
+              <a href="{{ event.url }}" target="_blank" rel="noopener">{{ event.title }}</a>
+            </h3>
+
+            <p class="event-meta">
+              <span class="meta-item">{{ event.date | date: "%-I:%M %p" }}
+                {% if event.end_date %} &ndash; {{ event.end_date | date: "%-I:%M %p" }}{% endif %}
+              </span>
+            </p>
+
+            {% if event.description %}
+            <p class="event-description">{{ event.description | truncatewords: 30 }}</p>
+            {% endif %}
+
+            <div class="event-footer">
+              <button class="btn event-cta">
+                <a href="{{ event.url }}" target="_blank" rel="noopener" class="cyber-btn">
+                  RSVP<span aria-hidden>_</span>
+                  <span aria-hidden class="cyber-btn__glitch">RSVP</span>
+                </a>
+                <span aria-hidden class="btn__tag">B00</span>
+              </button>
             </div>
-
-            <div class="event-image">
-              <img src="../assets/images/ai-april.webp" alt="AI April Kickoff Party!">
-            </div>
-
-            <div class="event-body">
-              <div class="event-type-tag">EVENT</div>
-
-              <h3 class="event-title">
-                <a href="https://www.meetup.com/meetup-group-umecjcqo/events/313286244/" target="_blank" rel="noopener">AI April Kickoff Party!</a>
-              </h3>
-
-              <p class="event-meta">
-                <span class="meta-item">06:30 PM - 09:30 PM
-                </span>
-              </p>
-
-              <p class="event-description">
-                The machines are coming. Might as well throw them a party. AI April kicks off with a launch party that's less "corporate keynote" and more "the future showed up and brought a DJ...
-              </p>
-
-              <div class="event-footer">
-                <button class="btn event-cta">
-                  <a href="https://www.meetup.com/meetup-group-umecjcqo/events/313286244/" target="_blank" rel="noopener" class="cyber-btn">
-                    RSVP<span aria-hidden>_</span>
-                    <span aria-hidden class="cyber-btn__glitch">RSVP</span>
-                  </a>
-                  <span aria-hidden class="btn__tag">B00</span>
-                </button>
-              </div>
-            </div>
+          </div>
         </article>
-
-        <article class="event-card">
-            <div class="event-date-block">
-              <span class="event-month">APR</span>
-              <span class="event-day">18</span>
-            </div>
-
-            <div class="event-image">
-              <img src="../assets/images/zero-to-hero.png" alt="AI April: Zero to Hero with GitHub Copilot: What Works in Real Projects">
-            </div>
-
-            <div class="event-body">
-              <div class="event-type-tag">EVENT</div>
-
-              <h3 class="event-title">
-                <a href="https://www.meetup.com/meetup-group-umecjcqo/events/313510254/" target="_blank" rel="noopener">AI April: Zero to Hero with GitHub Copilot</a>
-              </h3>
-
-              <p class="event-meta">
-                <span class="meta-item">10:00 AM - 01:00 PM
-                </span>
-              </p>
-
-              <p class="event-description">
-                Many underuse GitHub Copilot, using it as a fancy autocomplete, while others put too much trust into it and ship unverified code. In this hands-on workshop...
-              </p>
-
-              <div class="event-footer">
-                <button class="btn event-cta">
-                  <a href="https://www.meetup.com/meetup-group-umecjcqo/events/313510254/" target="_blank" rel="noopener" class="cyber-btn">
-                    RSVP<span aria-hidden>_</span>
-                    <span aria-hidden class="cyber-btn__glitch">RSVP</span>
-                  </a>
-                  <span aria-hidden class="btn__tag">B00</span>
-                </button>
-              </div>
-            </div>
-        </article>
+      {% endfor %}
     </div>
   {% endif %}
 
