@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "Taco Tuesday Open Source Builder Nights: OpenClaw Demo",
+    "date": "2026-04-28T18:00:00-05:00",
+    "end_date": "2026-04-28T21:00:00-05:00",
+    "venue": {
+      "name": "Zelifcam",
+      "address": "10200 San Pedro Ave, San Antonio, TX, 78216"
+    },
+    "url": "https://www.meetup.com/alamotechcollective/events/314199207/",
+    "description": "Join us for an open-source building night as Patrick Robinson dives into some of the features OpenClaw provides. Whether you’re starting something new, contributing to an existing repo, or just exploring ideas, this is your time to build alongside others.\n\n**We have a donation area for the San Antonio Food Bank! Don't forget to bring non-perishable items to help out.**\n\nThis session is all about collaboration, progress, and shared problem-solving. Come with a project in mind or jump in with someone else’s.\n\nWhat to expect:\n\n* Quick kickoff and space to share what you’re working on\n* Demos or updates for those who want to show progress\n* Open working time with a room full of builders\n* Casual conversation, spontaneous pairing, and idea swaps\n* Tacos. Because why not.\n\nBring your laptop, your curiosity, and your appetite.",
+    "image": "https://secure-content.meetupstatic.com/images/classic-events/533616740/highres.jpeg"
+  }
+]
