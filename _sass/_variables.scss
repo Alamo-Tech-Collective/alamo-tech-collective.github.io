@@ -33,3 +33,8 @@ $breakpoint-desktop: 1025px;
 $breakpoint-tablet: 1024px;
 $breakpoint-mobile: 768px;
 $breakpoint-small: 400px;
+
+.flex {
+    display: flex;
+    gap: $spacing-unit;
+}

@@ -71,4 +71,110 @@
         border-collapse: collapse;
         padding: 10px;
     }
+    .featured-image-container {
+        max-width: 720px;
+        height: auto;
+        margin: 0 auto 30px;
+        padding: 3px;
+        position: relative;
+        background: linear-gradient(135deg, $cyan, #005e65, #a8f0f4, $cyan);
+        background-size: 300% 300%;
+        animation: borderGlow 4s ease infinite, revealContainer 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        clip-path: polygon(
+            0 0,
+            calc(100% - 30px) 0,
+            100% 30px,
+            100% 100%,
+            30px 100%,
+            0 calc(100% - 30px)
+        );
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: -8px;
+            background: $cyan;
+            filter: blur(12px);
+            opacity: 0;
+            z-index: -1;
+            animation: revealGlow 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        }
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            clip-path: polygon(
+                0 0,
+                calc(100% - 30px) 0,
+                100% 30px,
+                100% 100%,
+                30px 100%,
+                0 calc(100% - 30px)
+            );
+            animation: revealImage 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+            opacity: 0;
+        }
+    }
+    .image-text-container {
+        display: flex;
+        justify-content: center;
+            align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+        > * {
+            flex: 1 1 0;
+            min-width: 0;
+        }
+        @media (max-width: $breakpoint-tablet) {
+            flex-direction: column;
+        }
+        &.reverse {
+            flex-direction: row-reverse;
+        }
+    }
+    .blog-image-container {
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+        padding: 3px;
+        position: relative;
+        background: linear-gradient(135deg, $yellow, #b78f00, #fce797, $yellow);
+        background-size: 300% 300%;
+        clip-path: polygon(
+            0 0,
+            calc(100% - 30px) 0,
+            100% 30px,
+            100% 100%,
+            30px 100%,
+            0 calc(100% - 30px)
+        );
+        animation: borderGlow 4s ease infinite;
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: -8px;
+            background: $yellow;
+            filter: blur(12px);
+            opacity: 0;
+            z-index: -1;
+        }
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            clip-path: polygon(
+                0 0,
+                calc(100% - 30px) 0,
+                100% 30px,
+                100% 100%,
+                30px 100%,
+                0 calc(100% - 30px)
+            );
+        }
+    }
 }

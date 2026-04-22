@@ -220,6 +220,29 @@
         right: 14px;
       }
     }
+    &.b-01_5 {
+      .cyber-btn {
+        clip-path: polygon(
+          0 0, 
+          100% 0, 
+          100% 100%, 
+          95% 100%, 
+          95% 90%, 
+          80% 90%, 
+          80% 100%, 
+          13% 100%, 
+          0 50%
+        );
+
+        &:before {
+          border-bottom: 26px solid $cyan;
+          border-right: 26px solid transparent;
+        }
+      }
+      .btn__tag {
+        right: 17.5px;
+      }
+    }
     &.b-02 {
       .cyber-btn {
         clip-path: polygon(
