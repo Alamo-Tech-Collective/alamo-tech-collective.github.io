@@ -10,8 +10,6 @@ description: "Free workspace. Real developers. Equipment that actually works. An
 <div class='featured-image-container'>
   <img src="/assets/images/hackerspace.png" alt="ATC's upgraded hackerspace" class="featured-image">
 </div>
-# AI April Kickoff: San Antonio Proves the Future Happens Here Too
-
 If you've been to Alamo Tech Collective before, you know we're not about the corporate coworking aesthetic. No motivational posters. No "synergy pods." Just a place where developers can actually build things without someone trying to sell them SaaS.
 
 We just upgraded the space. Here's what changed.
