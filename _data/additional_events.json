@@ -1,14 +1,2 @@
 [
-  {
-    "title": "The Drop: SQL + The Future fo Datanauts",
-    "date": "2026-05-07T18:00:00-05:00",
-    "end_date": "2026-05-07T19:30:00-05:00",
-    "venue": {
-      "name": "Zelifcam",
-      "address": "10200 San Pedro Ave, San Antonio, TX, 78216"
-    },
-    "url": "https://www.meetup.com/datanauts/events/314323543/",
-    "description": "SQL isn't just for querying tables. It's one of the most practical tools a data engineer uses to build, test, and trust data systems. Jagannath will walk through the SQL patterns he uses in real production work: cleaning and transforming raw data, debugging joins, validating data quality, and making datasets usable for analysts and downstream teams. No textbook theory, just the SQL that actually gets the job done.",
-    "image": "../assets/images/datanauts/datanauts_the-drop.avif"
-  }
 ]
