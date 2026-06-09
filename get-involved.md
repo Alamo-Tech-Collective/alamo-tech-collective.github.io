@@ -23,7 +23,7 @@ The Alamo Tech Collective provides a dedicated hackerspace for San Antonio's tec
 
 Come see what we're building. Schedule a tour to check out the hackerspace and meet our community. Tours run during regular business hours, no commitment required.
 
-<button class="btn b-02">
+<button class="btn b-02" target="_blank">
     <a href="https://hello.alamotechcollective.com/book/tour" class="cyber-btn">
     SCHEDULE A TOUR<span aria-hidden>_</span>
         <span aria-hidden class="cyber-btn__glitch">SCHEDULE A TOUR</span>
@@ -68,7 +68,7 @@ ATC has always been a space for people who actively participate in the community
 
 If you want in:
 
-<button class="btn b-00">
+<button class="btn b-00" target="_blank">
     <a href="#" class="cyber-btn">
     APPLY<span aria-hidden>_</span>
         <span aria-hidden class="cyber-btn__glitch">APPLY</span>
@@ -113,7 +113,7 @@ Either way: thank you for backing this place when there were fewer reasons to. N
 ## Connect with the Community
 Join our Meetup group to stay connected with San Antonio's tech community and get updates about what's happening at the Collective.
 
-<button class="btn b-02">
+<button class="btn b-02" target="_blank">
     <a href="https://www.meetup.com/alamotechcollective/" class="cyber-btn">
     JOIN ON MEETUP<span aria-hidden>_</span>
         <span aria-hidden class="cyber-btn__glitch">JOIN ON MEETUP</span>
@@ -173,7 +173,7 @@ The short version: growing the community lets us run the building more efficient
 
 Take the first step. Schedule a tour, apply for membership, or reach out with questions.
 
-<button class="btn b-02">
+<button class="btn b-02" target="_blank">
     <a href="https://hello.alamotechcollective.com/book/tour" class="cyber-btn">
     SCHEDULE A TOUR<span aria-hidden>_</span>
         <span aria-hidden class="cyber-btn__glitch">SCHEDULE A TOUR</span>
@@ -181,7 +181,7 @@ Take the first step. Schedule a tour, apply for membership, or reach out with qu
     <span aria-hidden class="btn__tag">B02</span>
 </button>
 
-<button class="btn b-00">
+<button class="btn b-00" target="_blank">
     <a href="#" class="cyber-btn">
     APPLY<span aria-hidden>_</span>
         <span aria-hidden class="cyber-btn__glitch">APPLY</span>
