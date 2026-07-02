@@ -69,7 +69,7 @@ ATC has always been a space for people who actively participate in the community
 If you want in:
 
 <button class="btn b-00" target="_blank">
-    <a href="#" class="cyber-btn">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqVyyAwGzuQi8k-B2KtI4PW15BxWbSgTvITL6wfuJXblXv_g/viewform?usp=sharing&ouid=107808135700338372298" class="cyber-btn">
     APPLY<span aria-hidden>_</span>
         <span aria-hidden class="cyber-btn__glitch">APPLY</span>
     </a>
@@ -182,7 +182,7 @@ Take the first step. Schedule a tour, apply for membership, or reach out with qu
 </button>
 
 <button class="btn b-00" target="_blank">
-    <a href="#" class="cyber-btn">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqVyyAwGzuQi8k-B2KtI4PW15BxWbSgTvITL6wfuJXblXv_g/viewform?usp=sharing&ouid=107808135700338372298" class="cyber-btn">
     APPLY<span aria-hidden>_</span>
         <span aria-hidden class="cyber-btn__glitch">APPLY</span>
     </a>
