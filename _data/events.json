@@ -1,17 +1,5 @@
 [
   {
-    "title": "Byte Night",
-    "date": "2026-07-10T18:00:00-05:00",
-    "end_date": "2026-07-10T21:00:00-05:00",
-    "venue": {
-      "name": "Zelifcam",
-      "address": "10200 San Pedro Ave, San Antonio, TX, 78216"
-    },
-    "url": "https://www.meetup.com/alamotechcollective/events/315168767/",
-    "description": "Byte Night is a laid-back gathering for programmers, tech folks, indie hackers, and curious minds in San Antonio who just want to hang out, talk shop, share ideas, and code together.\n\nNo pressure, no pitches — just good conversations about programming, business, tech trends, side projects, and whatever else comes up. Bring your laptop if you want to hack on something, or just come for the company and the chatter.\n\nWhether you're building the next big thing, tinkering with personal projects, or just looking to meet other people who *get* it, you’re welcome here.\n\n✨ **What to expect:**\n\n* Chill vibes and great conversations\n* People working on cool stuff (or nothing at all)\n* Tech talk, idea-sharing, and occasional brainstorming\n* Everyone from seasoned devs to beginners welcome\n* Probably tacos or coffee involved (this is San Antonio, after all)\n\n**Come hang out. Let’s talk code, life, and everything in between.**\n**We have a donation area for the San Antonio Food Bank! Don't forget to bring non-perishable items to help out.**",
-    "image": "https://secure-content.meetupstatic.com/images/classic-events/526856665/highres.jpeg"
-  },
-  {
     "title": "Playtest Night || VelociCode",
     "date": "2026-07-17T18:00:00-05:00",
     "end_date": "2026-07-17T20:00:00-05:00",
@@ -31,5 +19,14 @@
     "url": "https://www.meetup.com/alamotechcollective/events/315501250/",
     "description": "Ever wanted to build and program your own robot but didn't know where to start? Skip the dry lectures and join us at **Alamo Tech Collective's Hackerspace** for a high-energy, fully hands-on workshop where you will build, program, and deploy a wheeled autonomous robot from scratch!\nWe are using the brand-new **SparkFun Experiential Robotics Platform (XRP)**, a tool-free, beginner-friendly robotics kit designed to make learning robotics fast, intuitive, and incredibly fun.\nWhether you are a software developer looking to bridge into hardware, a student curious about automation, or an absolute beginner who has never touched code, this workshop is designed for you.\n\n**🛠️ What We'll Do:**\nWe will pair up in teams of two (one \"Driver\" managing assembly/hardware and one \"Programmer\" handling the code, switching roles throughout) to tackle real-world engineering challenges:\n\n* **Part 1: The Build (Tool-Free Assembly)** – Piece together your robot's chassis, mount the motors, and plug in the controller.\n* **Part 2: Hello World, Robot Style** – Write your first program to make your robot drive, spin, and perform a custom \"robot dance.\"\n* **Part 3: The Precision Driving Challenge** – Program your robot to navigate a taped obstacle course utilizing differential steering.\n* **Part 4: Robot Perception (Sensors)** – Integrate an ultrasonic distance sensor to teach your robot how to see, back up, and avoid obstacles dynamically.\n* **Part 5: Autonomous Grand Prix** – Put it all together! Compete in a final tournament featuring line-following tracks and autonomous navigation challenges.\n\n👥 **Who This is For:**\n\n* Ages 16 to adult.\n* Absolute beginners! No prior robotics, electronics, or programming experience required.\n* Developers wanting hands-on experience with hardware/embedded logic.\n\n💻 **What to Bring:**\n\n* **A laptop or Chromebook** with a USB port (or appropriate adapter) and a charger.\n* An open mind and a collaborative attitude!\n\n**🎙️ About your Instructors:**\nThis session is led by **Daniel Espinoza** and **Microchips & Queso Robotics**, local robotics educators dedicated to making hardware engineering accessible to the San Antonio community.\n\n**Robot kits are instructional aids only and may not be taken.**",
     "image": "https://secure-content.meetupstatic.com/images/classic-events/535027303/highres.jpeg"
+  },
+  {
+    "title": "Build Your Own AI Agent with Hermes",
+    "date": "2026-08-15T12:00:00-05:00",
+    "end_date": "2026-08-15T14:00:00-05:00",
+    "venue": null,
+    "url": "https://www.meetup.com/alamotechcollective/events/315634605/",
+    "description": "**You keep hearing \"just use an AI agent,\" so let's actually build one. Together. On your own laptop.**\nHermes Agent is an open-source (MIT) agent from Nous Research that lives on your machine, remembers what it learns, and writes its own reusable skills as it goes. No SaaS lock-in, no telemetry, no \"trust us with your data.\" Just an agent you own.\nIn this hands-on workshop, Brandon Howard walks the room through getting Hermes installed and running, then we build one real automation together — start to finish. You leave with a working agent on your laptop, not a pile of notes you'll never open again.\n**What We're Building (Together)**\n\n* Install Hermes locally (macOS, Windows, or Linux) and get past first-run setup\n* Wire up a model provider the easy way — one free OAuth login, zero API-key juggling\n* Run your first agent conversation and watch it use real tools\n* Build one practical automation end-to-end (think: a scheduled briefing or a repo summarizer)\n* See how Hermes remembers context and writes its own skill, so it never resolves the same problem\n\n**What You'll Walk Away With**\n\n* A working AI agent is installed and running on your own laptop\n* One automation you actually built, ready to keep using\n* A mental model for what \"agentic\" really means — beyond the hype\n* The confidence to keep experimenting on your own\n\n**Who Should Attend**\nCurious developers of every stripe. If you can open a terminal and type a command when someone shows you, you're ready. No prior agent experience required — we build from the ground up, and there's help in the room if you get stuck.\n**What to Bring**\n\n* A laptop (macOS, Windows, or Linux) with admin rights to install software\n* A charger, we'll be installing and running things for a couple of hours\n* Optional but recommended: a free Nous Portal account created ahead of time\n\n**Format**\n\\~2-hour guided build-along. Install together, build together, ask questions out loud. Informal, hands-on, zero pitches.",
+    "image": "https://secure-content.meetupstatic.com/images/classic-events/535143748/highres.jpeg"
   }
 ]
