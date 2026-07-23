@@ -13,11 +13,11 @@
   },
   {
     "title": "Build Your Own AI Agent with Hermes",
-    "date": "2026-08-15T12:00:00-05:00",
-    "end_date": "2026-08-15T14:00:00-05:00",
+    "date": "2026-08-29T12:00:00-05:00",
+    "end_date": "2026-08-29T14:00:00-05:00",
     "venue": null,
     "url": "https://www.meetup.com/alamotechcollective/events/315634605/",
-    "description": "**You keep hearing \"just use an AI agent,\" so let's actually build one. Together. On your own laptop.**\nHermes Agent is an open-source (MIT) agent from Nous Research that lives on your machine, remembers what it learns, and writes its own reusable skills as it goes. No SaaS lock-in, no telemetry, no \"trust us with your data.\" Just an agent you own.\nIn this hands-on workshop, Brandon Howard walks the room through getting Hermes installed and running, then we build one real automation together — start to finish. You leave with a working agent on your laptop, not a pile of notes you'll never open again.\n**What We're Building (Together)**\n\n* Install Hermes locally (macOS, Windows, or Linux) and get past first-run setup\n* Wire up a model provider the easy way — one free OAuth login, zero API-key juggling\n* Run your first agent conversation and watch it use real tools\n* Build one practical automation end-to-end (think: a scheduled briefing or a repo summarizer)\n* See how Hermes remembers context and writes its own skill, so it never resolves the same problem\n\n**What You'll Walk Away With**\n\n* A working AI agent is installed and running on your own laptop\n* One automation you actually built, ready to keep using\n* A mental model for what \"agentic\" really means — beyond the hype\n* The confidence to keep experimenting on your own\n\n**Who Should Attend**\nCurious developers of every stripe. If you can open a terminal and type a command when someone shows you, you're ready. No prior agent experience required — we build from the ground up, and there's help in the room if you get stuck.\n**What to Bring**\n\n* A laptop (macOS, Windows, or Linux) with admin rights to install software\n* A charger, we'll be installing and running things for a couple of hours\n* Optional but recommended: a free Nous Portal account created ahead of time\n\n**Format**\n\\~2-hour guided build-along. Install together, build together, ask questions out loud. Informal, hands-on, zero pitches.",
+    "description": "Updates coming soon.",
     "image": "https://secure-content.meetupstatic.com/images/classic-events/535143748/highres.jpeg"
   }
 ]
