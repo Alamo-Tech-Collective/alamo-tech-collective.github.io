@@ -17,7 +17,7 @@
     "end_date": "2026-08-29T14:00:00-05:00",
     "venue": null,
     "url": "https://www.meetup.com/alamotechcollective/events/315634605/",
-    "description": "Updates coming soon.",
+    "description": "AI agents aren't science fiction; they're running businesses right now. Hermes isn't a chatbot. It's an agent with file system access, terminal control, persistent memory, scheduled automation, and the ability to connect to Discord, Telegram, and your email. Brandon Howard will walk through how he uses Hermes day to day, what broke, what he fixed, and how to set it up from scratch. This is not a polished demo. It's an honest look at what happens when AI actually does the work. What we'll cover:\n\n* Real use cases — not theory, not hype\n* What breaks and how to make it stick\n* SOUL.md, skills, cron jobs, and memory (Mnemosyne)\n* Platform connections: Discord, Telegram, email\n\nPlease feel free to follow along. Computer troubleshooting will not be part of this event. This is a demonstration. Full notes will be provided at the end of the event.",
     "image": "https://secure-content.meetupstatic.com/images/classic-events/535143748/highres.jpeg"
   }
 ]
