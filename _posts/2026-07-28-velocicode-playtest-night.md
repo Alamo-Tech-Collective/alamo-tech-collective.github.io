@@ -2,7 +2,7 @@
 layout: post
 title: "You're Halfway There: Inside VelociCode Playtest Night"
 date: 2026-07-28
-categories: [hackerspace, meetup, community]
+categories: [community, events, programming]
 author: "Alamo Tech Collective"
 description: "Nine games, twenty testers, thirteen days left. Inside VelociCode's Playtest Night at the Alamo Tech Collective, and why mid-jam feedback actually works."
 ---
