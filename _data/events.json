@@ -1,17 +1,5 @@
 [
   {
-    "title": "Software Factories",
-    "date": "2026-09-08T18:00:00-05:00",
-    "end_date": "2026-09-08T19:30:00-05:00",
-    "venue": {
-      "name": "Zelifcam",
-      "address": "10200 San Pedro Ave, San Antonio, TX, 78216"
-    },
-    "url": "https://www.meetup.com/alamotechcollective/events/316157911/",
-    "description": "Writing code got fast. Reviewing code is still catching up. But the harder problem is already here: knowing what to build in the first place. A software factory codifies how you work so you can spend less time on the mechanics of shipping and more time on the work that actually matters, like system design, verification, and making sure you're building the right thing. This talk covers where the bottleneck has been, where it's going, and how a software factory might be a useful tool in your back pocket for shipping the right thing at work or on personal projects.",
-    "image": "https://secure-content.meetupstatic.com/images/classic-events/535715258/highres.jpeg"
-  },
-  {
     "title": "Byte Night",
     "date": "2026-09-11T18:00:00-05:00",
     "end_date": "2026-09-11T21:00:00-05:00",
