@@ -1,8 +1,8 @@
 ---
 layout: page
 class: main-content
-description: Discover San Antonio's leading tech hackerspace offering 24/7 access, high-speed internet, collaborative workspaces, and a vibrant community of developers and digital creators.
-keywords: about Alamo Tech Collective, San Antonio tech community, hackerspace benefits, makerspace features, developer workspace, tech collaboration space
+description: Alamo Tech Collective is San Antonio's grassroots tech community, running meetups, build nights, and workshops for developers, security professionals, and digital creators.
+keywords: about Alamo Tech Collective, San Antonio tech community, San Antonio tech meetups, developer community, tech events San Antonio
 permalink: /about/
 ---
 
@@ -12,7 +12,7 @@ permalink: /about/
 
 <h1>About Alamo Tech Collective - San Antonio Tech Community Hub</h1>
 
-## The Space San Antonio Tech Deserves
+## The Community San Antonio Tech Deserves
 
 ### Why We Built This
 
@@ -22,7 +22,7 @@ We have. That's why we built this.
 
 San Antonio has incredible tech talent, but we're scattered across coffee shops, working from home, or tucked away in corporate offices. For years, our tech community has been fumbled by well-meaning organizations that lost their way when leadership changed or priorities shifted. What started as genuine attempts to connect developers often became networking events that served everyone except the people actually building technology.
 
-The truth is, there's a thriving community of developers, security researchers, indie hackers, and startup founders doing incredible work here. They're building SaaS products, contributing to major open source projects, and solving real problems. But without a true home base, we remain disconnected from each other.
+The truth is, there's a thriving community of developers, security researchers, indie hackers, and startup founders doing incredible work here. They're building SaaS products, contributing to major open source projects, and solving real problems. But without a place to regularly find each other, we remain disconnected.
 
 ### The Problem We're Solving
 
@@ -32,32 +32,32 @@ The truth is, there's a thriving community of developers, security researchers, 
 - Burn out without a support network that actually understands the work
 - Watch talent leave for Austin, Dallas, or the coasts
 
-Traditional coworking spaces don't cut it for technical work. We need whiteboards for system design, peers who understand regex, and a place to deploy experimental code without triggering corporate security alerts. We need a space designed by developers, for developers.
+Generic networking mixers don't cut it for technical people. We need whiteboards for system design, peers who understand regex, and room to show off half-finished projects without a sales pitch attached. We need events designed by developers, for developers.
 
 ### What We're Building
 
-The Alamo Tech Collective isn't just another coworking space. It's a tech-exclusive hackerspace where:
+The Alamo Tech Collective isn't just another networking group. It's a community for people who build technology, where:
 
 - **Your rubber duck debugging partner is an actual developer**, not a marketing consultant
-- **The WiFi is configured by people who know what ports you need open**
 - **"I'm working on a project" doesn't require a 20-minute explanation**
-- **Late-night coding sessions are normal**, not suspicious
+- **Showing up with a laptop and a half-broken build is encouraged**
+- **Talks and workshops come from the community**, not from sponsors
 
 ### Our Approach
 
 We're deliberately different:
 
-**Community-Funded Operations**  
-While Zelifcam generously provides our space, all operations are member-funded. No logos on the wall, no mandatory "lunch and learns," no pressure to use specific technologies.
+**Community-Run Events**  
+Our meetups, build nights, and workshops are organized by the people who show up to them. No logos on the wall, no mandatory "lunch and learns," no pressure to use specific technologies.
 
-**Tech-Exclusive**  
+**Tech-Focused**  
 This isn't elitist, it's practical. When everyone speaks the same language, real collaboration happens naturally.
 
 **Community Owned**  
-Members shape the space. Need a specific tool? Let's get it. Want to organize a workshop? Here's the keys.
+The community shapes what we do. Want to give a talk or run a workshop? Pitch it and we'll help make it happen.
 
 **Radically Transparent**  
-Our finances, decisions, and plans are open to all members. No backroom deals or surprise pivots.
+Our decisions and plans are open to the community. No backroom deals or surprise pivots.
 
 ### The Vision
 
@@ -65,11 +65,7 @@ San Antonio should be known for more than just tacos and tourism. We have the ta
 
 But it starts with community. Real connections between people doing real work.
 
-The Alamo Tech Collective is that starting point. A physical space where San Antonio's tech community can finally see itself, support itself, and build together.
-
-### The Hackerspace: A Tool, Not the Goal
-
-Let's be clear: **The Alamo Tech Collective is more than a hackerspace.** The physical space is just a tool—a really important one—that helps us achieve something much bigger.
+The Alamo Tech Collective is that starting point. A place, in person and online, where San Antonio's tech community can finally see itself, support itself, and build together.
 
 Our true goal is building a thriving, sustainable tech community in San Antonio. One where:
 - **Knowledge flows freely** between experienced developers and newcomers
@@ -77,26 +73,18 @@ Our true goal is building a thriving, sustainable tech community in San Antonio.
 - **Talent chooses to stay** because they've found their tribe
 - **Companies recruit locally** because they know the talent pool is deep and connected
 
-The hackerspace makes this possible by providing:
-- **Collision space** where spontaneous conversations lead to breakthrough ideas
-- **Neutral ground** not owned by any company or institution
-- **Physical anchor** that makes our digital community tangible and real
-- **Growth accelerator** where skills are shared, not hoarded
-
-Think of it this way: If building San Antonio's tech community is like building software, the hackerspace is our development environment. It's where we write the code, debug the problems, and deploy the solutions. But the real product? That's the community itself—connected, empowered, and building amazing things together.
-
 ### Who's Behind This
 
-The Alamo Tech Collective is backed by [Zelifcam](https://zelifcam.net){:class="link"}, a local software company deeply committed to creating jobs, developing talent, and building resources right here in San Antonio. In an unprecedented move, Zelifcam has provided the hackerspace facility completely free, ensuring that every dollar of membership fees and community resources goes directly to what really matters: building San Antonio's tech community.
+Our events are hosted by [Zelifcam](https://zelifcam.net){:class="link"}, a local software company deeply committed to creating jobs, developing talent, and building resources right here in San Antonio. Zelifcam opens its doors to our events for free, and that includes events run by other community tech groups.
 
-This isn't corporate charity or a marketing play. Zelifcam understands that a thriving tech ecosystem benefits everyone: creating opportunities for developers, attracting innovative companies, and keeping talent in our city. By removing the burden of rent and facility costs, they've made it possible for the Collective to focus entirely on serving its members.
+This isn't corporate charity or a marketing play. Zelifcam understands that a thriving tech ecosystem benefits everyone: creating opportunities for developers, attracting innovative companies, and keeping talent in our city. By removing the cost of a venue, they've made it possible for the Collective to focus entirely on the community.
 
-We're developers, security professionals, and tech workers building the community we've always wanted. With Zelifcam's support removing the biggest barriers, we can finally create a true home for San Antonio tech.
+We're developers, security professionals, and tech workers building the community we've always wanted.
 
 Want to be part of it?
 
 <button class="btn b-03">
-    <a href="{{ '/get-involved' | relative_url }}" class="cyber-btn">
+    <a href="https://www.meetup.com/alamotechcollective/" class="cyber-btn">
     JOIN THE COLLECTIVE<span aria-hidden>_</span>
         <span aria-hidden class="cyber-btn__glitch">JOIN THE COLLECTIVE</span>
     </a>

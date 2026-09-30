@@ -112,6 +112,6 @@ Want to influence what we build next? Join our [Build Nights](https://www.meetup
 
 ---
 
-*[Alamo Tech Collective](/about) is a hackerspace in San Antonio where people build cool stuff together. We meet every other Tuesday for Build Nights - check [our Meetup](https://www.meetup.com/alamotechcollective) for the next one. No experience required, just bring your curiosity. This project was built entirely by volunteers using open source tools and San Antonio's open data.*
+*[Alamo Tech Collective](/about) is a tech community in San Antonio where people build cool stuff together. We run regular Build Nights - check [our Meetup](https://www.meetup.com/alamotechcollective) for the next one. No experience required, just bring your curiosity. This project was built entirely by volunteers using open source tools and San Antonio's open data.*
 
 *Keywords: San Antonio crime data, SATX open data portal, public safety dashboard, crime statistics San Antonio TX, open source civic technology, San Antonio tech community, crime heat map, 911 response times, neighborhood safety data, Bexar County crime trends, SAPD data visualization, civic tech San Antonio*

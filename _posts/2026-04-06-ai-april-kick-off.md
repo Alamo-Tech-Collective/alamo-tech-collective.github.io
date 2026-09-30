@@ -116,7 +116,6 @@ Events like AI April kickoff prove that the community exists. It's growing. And 
 
 If you're in San Antonio and you work with technology (or you're just trying to figure out what's happening in your own backyard), stop sleeping on your local scene. The conversations are happening. The people are here. You just have to show up.
 
-👉 [Tour the Space](http://hello.alamotechcollective.com/book/tour)
 
 See you at the next one.
 

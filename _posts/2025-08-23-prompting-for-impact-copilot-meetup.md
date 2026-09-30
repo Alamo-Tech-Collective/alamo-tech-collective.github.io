@@ -50,10 +50,10 @@ Patrick left us with this thought: "How can we use AI to increase our cognitive 
 
 ## Join Us
 
-If you're interested in these kinds of practical, hands-on discussions about development tools and practices, come check out our space. We meet regularly, and there's always room for more voices in the conversation. Whether you're AI-curious or AI-skeptical, you'll find thoughtful discussion and real-world experimentation happening here.
+If you're interested in these kinds of practical, hands-on discussions about development tools and practices, come to our next meetup. We meet regularly, and there's always room for more voices in the conversation. Whether you're AI-curious or AI-skeptical, you'll find thoughtful discussion and real-world experimentation happening here.
 
 Special thanks to Patrick for sharing his knowledge and to everyone who attended and contributed to the discussion. These community-driven learning experiences are what make our local tech scene special.
 
 ---
 
-*The Alamo Tech Collective hackerspace is open to members 24/7. Visit us to learn more about membership and upcoming events.*
+*Find upcoming Alamo Tech Collective events on [our Meetup](https://www.meetup.com/alamotechcollective/).*

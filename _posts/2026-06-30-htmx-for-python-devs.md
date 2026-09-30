@@ -4,7 +4,7 @@ title: "HTML Over the Wire: HTMX Night with Alamo Python"
 date: 2026-06-30
 categories: [community, tutorials]
 author: Alamo Tech Collective
-description: "Alamo Python came to Alamo Tech Collective's Hackerspace for a build-along HTMX session. Here's what we covered, the Big 6 attributes, and two repos you can clone tonight."
+description: "Alamo Python came to Alamo Tech Collective for a build-along HTMX session. Here's what we covered, the Big 6 attributes, and two repos you can clone tonight."
 permalink: /community/meetups/2026/06/30/htmx-for-python-devs/
 ---
 <div class='featured-image-container'>

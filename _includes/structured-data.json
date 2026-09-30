@@ -1,48 +1,23 @@
 {
   "@context": "https://schema.org",
-  "@type": "CoworkingSpace",
+  "@type": "Organization",
   "name": "{{ site.title }}",
   "description": "{{ site.description }}",
   "url": "{{ site.url }}",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "10200 San Pedro Ave",
-    "addressLocality": "San Antonio",
-    "addressRegion": "TX",
-    "postalCode": "78216",
-    "addressCountry": "US"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer service",
-    "email": "{{ site.email }}"
+  "location": {
+    "@type": "Place",
+    "name": "Zelifcam",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10200 San Pedro Ave",
+      "addressLocality": "San Antonio",
+      "addressRegion": "TX",
+      "postalCode": "78216",
+      "addressCountry": "US"
+    }
   },
   "sameAs": [
     "https://github.com/{{ site.github_username }}",
     "https://www.meetup.com/alamotechcollective/"
-  ],
-  "amenityFeature": [
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "24/7 Access",
-      "value": true
-    },
-    {
-      "@type": "LocationFeatureSpecification", 
-      "name": "High-speed Internet",
-      "value": true
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Coffee Bar",
-      "value": true
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Electronics Lab",
-      "value": true
-    }
-  ],
-  "priceRange": "$99/month",
-  "openingHours": "Mo-Su 00:00-24:00"
+  ]
 }

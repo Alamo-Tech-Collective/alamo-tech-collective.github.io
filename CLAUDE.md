@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based website for the Alamo Tech Collective, a tech-exclusive hackerspace in San Antonio. The site features a cyberpunk-inspired aesthetic with animated elements and interactive components.
+This is a Jekyll-based website for the Alamo Tech Collective, a grassroots tech community in San Antonio that runs meetups, build nights, and workshops (hosted at Zelifcam, 10200 San Pedro Ave). ATC no longer operates a hackerspace/coworking space and has no paid membership, so avoid that framing in copy. The site features a cyberpunk-inspired aesthetic with animated elements and interactive components.
 
 ### Technology Stack
 - **Jekyll 3.9.3** (via GitHub Pages gem) - Static site generator
@@ -185,9 +185,9 @@ Pages support extensive front matter for SEO and content configuration:
 - Active page highlighting (cyan color) on navigation links
 - Orbitron font for logo and navigation
 - Navigation icons (mobile only):
-  - Home: fa-house
+  - Events: fa-calendar
   - Blog: fa-newspaper
-  - Join: fa-user-plus
+  - Join: fa-user-plus (links to the Meetup group)
   - About: fa-circle-info
   - Contact: fa-envelope
 
@@ -210,9 +210,9 @@ Pages support extensive front matter for SEO and content configuration:
   - Title, subtitle, and JOIN US button (b-00 variant)
   - JOIN US button fades in after 2 seconds using fadeInBtn animation
   - Mobile: Logo container shifted right with margin-left: 13%
-- **Quick Facts**: Grid layout with yellow-bordered cards, hover lift effect
+- **Quick Facts**: Grid layout with yellow-bordered cards, hover lift effect; icons via `icon_img` (SVG), `fa_icon` (Font Awesome class), or `icon` (emoji fallback)
 - **Photos**: Uniform image heights (200px) with object-fit: cover, yellow borders, hover lift effect
-- **CTA**: Schedule tour button with cyan accent (b-02 variant)
+- **CTA**: Join on Meetup button with cyan accent (b-02 variant); text from `cta_button_text`
 
 #### Blog Page
 - **Layout**: Two-column grid (340px sidebar + flexible main content), single column on mobile

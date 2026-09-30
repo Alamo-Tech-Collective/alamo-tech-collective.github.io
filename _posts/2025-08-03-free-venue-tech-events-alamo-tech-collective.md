@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Free Tech Event Space in San Antonio | Alamo Tech Collective Hackerspace"
+title: "Free Tech Event Space in San Antonio | Alamo Tech Collective"
 date: 2025-08-03
 categories: [community, events, hackerspace]
 author: "Alamo Tech Collective"
-excerpt: "Host your tech meetup, workshop, or hackathon FREE at Alamo Tech Collective. San Antonio's premier hackerspace offers complimentary venue space for technology events with WiFi, projector, and equipment included."
-keywords: "free tech event space San Antonio, hackerspace venue rental, tech meetup venue San Antonio, free workshop space, Alamo Tech Collective events, San Antonio tech community space, free hackathon venue, programming workshop venue"
+excerpt: "Host your tech meetup, workshop, or hackathon FREE at Alamo Tech Collective. We offer complimentary venue space for technology events with WiFi and a presentation screen included."
+keywords: "free tech event space San Antonio, tech meetup venue San Antonio, free workshop space, Alamo Tech Collective events, San Antonio tech community space, free hackathon venue, programming workshop venue"
 ---
 
 ## Free Tech Event Venue in San Antonio - Alamo Tech Collective
 
-At **Alamo Tech Collective (ATC)**, San Antonio's premier hackerspace, we believe that great ideas shouldn't be limited by venue costs. That's why we're proud to offer our hackerspace **completely free** for hosting technology-related events in San Antonio, Texas. Whether you're organizing a programming workshop, hardware hacking session, tech talk, or community meetup, our doors are open to you.
+At **Alamo Tech Collective (ATC)**, San Antonio's grassroots tech community, we believe that great ideas shouldn't be limited by venue costs. That's why we're proud to offer our event venue, hosted by Zelifcam, **completely free** for hosting technology-related events in San Antonio, Texas. Whether you're organizing a programming workshop, hardware hacking session, tech talk, or community meetup, our doors are open to you.
 
 ## Why Free Tech Event Space Matters in San Antonio
 
@@ -26,7 +26,7 @@ We've removed that barrier entirely. By offering our space at no cost, we're ens
 
 ## What Alamo Tech Collective Offers for Your Tech Event
 
-Our San Antonio hackerspace provides everything you need for a successful tech event:
+Our San Antonio venue provides everything you need for a successful tech event:
 
 ### Space & Amenities
 - **Flexible meeting area** that accommodates 20-30 people comfortably
@@ -36,15 +36,9 @@ Our San Antonio hackerspace provides everything you need for a successful tech e
 - **Kitchen facilities** for refreshments and networking breaks
 - **Accessible location** with free parking
 
-### Equipment & Tools
-- Electronics lab with soldering stations
-- 3D printer for prototyping demonstrations
-- Basic hand and power tools
-- Component library for hardware hacking
-
 ## Tech Events Perfect for ATC's Free San Antonio Venue
 
-Our hackerspace is ideal for hosting:
+Our venue is ideal for hosting:
 
 - **Programming workshops** (Python, JavaScript, Rust, and more)
 - **Hardware hacking nights** and Arduino/Raspberry Pi projects
@@ -59,8 +53,8 @@ Our hackerspace is ideal for hosting:
 
 Getting started is simple:
 
-1. **Schedule a tour** to see the space and discuss your event
-2. **Share your event details** during the tour:
+1. **Reach out on [Meetup](https://www.meetup.com/alamotechcollective/)** to start the conversation
+2. **Share your event details**:
    - Event name and description
    - Preferred date and time
    - Expected attendance
@@ -78,7 +72,7 @@ The only requirements? Your event should be:
 
 When you host at ATC, you gain access to:
 - **Cross-promotion** through our community channels
-- **Member expertise** - many of our members love sharing knowledge
+- **Community expertise** - many of our regulars love sharing knowledge
 - **Networking opportunities** with other tech groups
 - **Potential collaboration** on future projects
 
@@ -86,14 +80,12 @@ When you host at ATC, you gain access to:
 
 Don't let venue costs stop your San Antonio tech event from happening. Whether you're planning your first meetup or looking for a new home for an established group, Alamo Tech Collective's free event space is here for you.
 
-**Take the first step:**
+[Reach Out on Meetup](https://www.meetup.com/alamotechcollective/){: .btn .btn-primary}
 
-[Schedule a Tour](https://hello.alamotechcollective.com/book/tour){: .btn .btn-primary}
-
-Visit us to see the space, meet our community, and discuss how we can support your tech event.
+Come to one of our events to see the space, meet our community, and discuss how we can support your tech event.
 
 Together, we're building a stronger, more inclusive tech community in San Antonio – one free event at a time.
 
 ---
 
-*Located in the heart of San Antonio, Alamo Tech Collective is the city's go-to hackerspace for free tech event hosting, offering professional amenities and a welcoming community for developers, makers, and tech enthusiasts.*
+*Located in the heart of San Antonio, Alamo Tech Collective offers free tech event hosting with professional amenities and a welcoming community for developers, makers, and tech enthusiasts.*

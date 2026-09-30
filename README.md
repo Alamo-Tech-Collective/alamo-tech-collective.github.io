@@ -1,6 +1,6 @@
 # Alamo Tech Collective Website
 
-A Jekyll-based website for the Alamo Tech Collective, San Antonio's tech-exclusive hackerspace.
+A Jekyll-based website for the Alamo Tech Collective, San Antonio's grassroots tech community.
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ A Jekyll-based website for the Alamo Tech Collective, San Antonio's tech-exclusi
 - `_includes/` - Reusable components (header, footer)
 - `_sass/` - SCSS styling files
 - `assets/` - Compiled CSS and static assets
-- Pages: `index.md`, `about.md`, `hackerspace.md`, `get-involved.md`, `contact.md`
+- Pages: `index.md`, `about.md`, `contact.md`
 
 ## Deployment
 

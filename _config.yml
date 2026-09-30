@@ -1,10 +1,9 @@
 # Site settings
-title: Alamo Tech Collective - San Antonio's Premier Tech Hackerspace
+title: Alamo Tech Collective - San Antonio's Tech Community
 email: ""
 description: >-
-  San Antonio's premier tech-exclusive hackerspace and makerspace. 24/7 access, 
-  high-speed internet, and collaborative workspace for developers, programmers, 
-  and digital creators. Join our thriving tech community today.
+  San Antonio's grassroots tech community. Meetups, build nights, and workshops
+  for developers, security folks, and digital creators. Come build with us.
 tagline: "Where San Antonio's Tech Community Collaborates and Innovates"
 locale: "en_US"
 baseurl: "" # the subpath of your site, e.g. /blog

@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "Your New Favorite Place to Build: Inside ATC's Upgraded Hackerspace"
 date: 2026-04-02
@@ -84,11 +85,9 @@ Attend Events – We run two monthly meetups. Byte Night is our general hangout:
 The space exists because San Antonio's tech community needs a place that isn't a coffee shop or a corporate office. Somewhere you can show up, build things, and talk to people who get what you're working on.
 
 ## How to Use the Space
-**Book a Tour –** See the space in person. Walk through the rooms. Ask questions. Get a feel for whether it works for you. 👉 [Book a Tour](http://hello.alamotechcollective.com/book/tour)
 
 **Attend a Monthly Event –** Check us out on Meetup for the latest events and RSVP: [Alamo Tech Collective on Meetup](https://www.meetup.com/alamotechcollective/)
 
-**Private Bookings –** Need the space for your team, study group, or workshop? Reach out through the booking page.
 
 ## The Bigger Picture
 San Antonio's tech scene is growing fast. [Texas Cyber Command](https://alamotechcollective.com/cybersecurity/san%20antonio/technology/2026/01/04/cyber-city-sa/) just launched, UTSA built out its AI and cyber programs, and Port San Antonio keeps expanding its tech presence. The infrastructure is here.

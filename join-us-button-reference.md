@@ -37,10 +37,10 @@ This document contains all the code used to build the "JOIN US" button on the ho
 
 ```yaml
 ---
-hero_title: San Antonio's Tech-Exclusive Hackerspace
+hero_title: San Antonio's Tech Community
 hero_subtitle: Built for people who want to build, connect, and learn. No corporate noise. No gatekeeping. Just real community.
 hero_cta_text: Join the Community
-hero_cta_link: /get-involved
+hero_cta_link: https://www.meetup.com/alamotechcollective/
 ---
 ```
 

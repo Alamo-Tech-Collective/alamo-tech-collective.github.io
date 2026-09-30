@@ -2,8 +2,8 @@
 layout: page
 title: Alamo Tech Collective - Blog
 class: blog-content
-description: Explore the latest insights, tutorials, and updates from Alamo Tech Collective's vibrant community of developers and digital creators. Stay informed about tech trends, coding tips, and upcoming events in San Antonio's leading hackerspace.
-keywords: Alamo Tech Collective blog, San Antonio tech blog, developer insights, coding tutorials, tech news, hackerspace updates
+description: Explore the latest insights, tutorials, and updates from Alamo Tech Collective's vibrant community of developers and digital creators. Stay informed about tech trends, coding tips, and upcoming events in San Antonio's tech community.
+keywords: Alamo Tech Collective blog, San Antonio tech blog, developer insights, coding tutorials, tech news, San Antonio tech community
 permalink: /blog/
 ---
 

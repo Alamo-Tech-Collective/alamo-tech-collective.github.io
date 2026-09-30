@@ -80,7 +80,7 @@ Submissions closed July 30. The community showcase is Saturday, August 1; finish
 <br /><br />
 If you run a meetup, workshop, or jam in San Antonio and need somewhere to put it: our space is free for community tech events. VelociCode is what that looks like when it works. 
 
-👉 [Tour the Space](http://hello.alamotechcollective.com/book/tour)
+👉 [Reach Out on Meetup](https://www.meetup.com/alamotechcollective/)
 
 See you at the next one.
 
