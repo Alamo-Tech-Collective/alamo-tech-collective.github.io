@@ -41,7 +41,14 @@ Run a meetup, workshop, or game jam in San Antonio? Our venue is free for commun
         <span aria-hidden class="cyber-btn__glitch">GITHUB</span>
     </a>
     <span aria-hidden class="btn__tag">B00</span>
-</button>
+</button> 
+<button class="btn b-01">
+    <a href="https://www.linkedin.com/company/107558649/" class="cyber-btn">
+    LINKEDIN<span aria-hidden>_</span>
+        <span aria-hidden class="cyber-btn__glitch">LINKEDIN</span>
+    </a>
+    <span aria-hidden class="btn__tag">B01</span>
+</button>  
 <br>
 ### For Partnerships
 Interested in partnering with the Alamo Tech Collective? We're open to collaborations that align with our mission of building a stronger, more connected tech community in San Antonio.

@@ -18,6 +18,7 @@
   },
   "sameAs": [
     "https://github.com/{{ site.github_username }}",
-    "https://www.meetup.com/alamotechcollective/"
+    "https://www.meetup.com/alamotechcollective/",
+    "https://www.linkedin.com/company/107558649/"
   ]
 }
