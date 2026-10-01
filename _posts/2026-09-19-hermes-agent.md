@@ -162,10 +162,6 @@ Missed the workshop entirely? Here's the <a href="https://www.meetup.com/alamote
 
 See you at the next one.
 
-Alamo Tech Collective
-
-Building San Antonio's tech community, one event at a time.
-
 ## Resources & Further Reading
 -	Nous Research. Hermes Agent: documentation. <a href="https://hermes-agent.nousresearch.com/docs/" target="_blank" rel="noopener">https://hermes-agent.nousresearch.com/docs/</a>
 -	Nous Research. Hermes Agent: security (command approvals, DM pairing). <a href="https://hermes-agent.nousresearch.com/docs/user-guide/security" target="_blank" rel="noopener">https://hermes-agent.nousresearch.com/docs/user-guide/security</a>
