@@ -134,6 +134,10 @@
             flex-direction: row-reverse;
         }
     }
+    .blog-image-container.full-width {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
     .blog-image-container {
         max-width: 500px;
         height: auto;
