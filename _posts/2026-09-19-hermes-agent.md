@@ -109,7 +109,7 @@ Prefer a desktop app? The Mac and Windows installer lives at <a href="https://he
 hermes setup --portal
 ```
 
-🎁 **Workshop offer:** Brandon shared a link that gets you **$10 in API credit** when you subscribe to Nous Portal: [PORTAL REFERRAL LINK]
+🎁 **Workshop offer:** Brandon shared a link that gets you **$10 in API credit** when you subscribe to Nous Portal: [portal.nousresearch.com/r/theretroroot](https://portal.nousresearch.com/r/theretroroot)
 
 Rather bring your own API keys? Pick a provider and model instead:
 
@@ -154,9 +154,9 @@ No send button until you trust it. Add automation only after the result earns it
 Brandon closed on the line that summed up the whole afternoon. Hermes isn't an AI that runs your business without you. *"It's an assistant that does the reconstruction, shows the evidence, and leaves the judgment to you."*
 
 ## Bring your agent to Byte Night
-Got Hermes running? Stuck on step 4? Bring your laptop to **Byte Night on Friday, October 9th** at [BYTE NIGHT TIME]. Show off your first brief, swap SOUL.md files, and debug alongside other San Antonio devs in the same room that hosted <a href="{% post_url 2026-07-28-velocicode-playtest-night %}">VelociCode Playtest Night</a>.
+Got Hermes running? Stuck on step 4? Bring your laptop to **Byte Night on Friday, October 9th** at 6 PM. Show off your first brief, swap SOUL.md files, and debug alongside other San Antonio devs in the same room that hosted <a href="{% post_url 2026-07-28-velocicode-playtest-night %}">VelociCode Playtest Night</a>.
 
-👉 [RSVP for Byte Night]([BYTE NIGHT MEETUP LINK])
+👉 [RSVP for Byte Night](https://www.meetup.com/alamotechcollective/events/316781097/)
 
 Missed the workshop entirely? Here's the <a href="https://www.meetup.com/alamotechcollective/events/316359316/" target="_blank" rel="noopener">original event page</a>. Follow us on Meetup so you catch the next one.
 
