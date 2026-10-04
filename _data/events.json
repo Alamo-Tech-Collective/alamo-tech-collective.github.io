@@ -20,7 +20,7 @@
       "address": "10200 San Pedro Ave, San Antonio, TX 78216, USA, San Antonio, TX, 78216"
     },
     "url": "https://www.meetup.com/alamotechcollective/events/316782055/",
-    "description": "This session is for builders, developers, and AI-curious folks who want a clearer picture of what persistent agents are actually useful for. We’ll compare OpenClaw, Hermes, and Grok Bot, look at where they overlap and differ, and walk through practical use cases for agents that stick around and handle ongoing work. You’ll leave with a better understanding of which tool fits which kind of problem, where persistent agents are most useful, and a few concrete ideas for workflows you could try yourself.",
+    "description": "This session is for builders, developers, and AI-curious folks who want a clearer picture of what persistent agents are actually useful for. We'll look at OpenClaw, Hermes, Grok Bot, Muse, and Dots, where they overlap and where they differ, and walk through practical workflows for agents that stick around and handle ongoing work. It is a short frame and a few demos, then the room. You'll leave with a better sense of which tool fits which kind of problem, a few concrete ideas you could try, and if you want to try one, Patrick will help you sketch a setup before you leave.",
     "image": "https://secure-content.meetupstatic.com/images/classic-events/536387533/highres.jpeg"
   }
 ]
