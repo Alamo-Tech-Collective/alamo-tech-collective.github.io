@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="presentation-fx" aria-hidden="true"></div>
+
+{% assign upcoming = site.data.events | concat: site.data.additional_events | sort: "date" %}
+<script type="application/json" id="presentation-events">{{ upcoming | jsonify }}</script>
+
+<section class="presentation">
+  <div class="presentation-brand">
+    <img src="{{ '/assets/images/atc-logo-glow.svg' | relative_url }}" alt="Alamo Tech Collective" class="presentation-logo">
+    <span class="logo-text" data-scramble="ALAMO TECH COLLECTIVE"></span>
+    <hr class="presentation-rule">
+    <div class="terminal" aria-hidden="true">
+      <div class="terminal__bar">
+        <span class="terminal__dot"></span><span class="terminal__dot"></span><span class="terminal__dot"></span>
+        <span class="terminal__title">atc@san-antonio:~</span>
+      </div>
+      <p class="terminal__line">
+        <span class="prompt">$</span>
+        <span class="terminal__text"><span data-scramble-cycle="{{ page.one_liners | join: '|' | escape }}" data-scramble-delay="1500" data-scramble-interval="4000"></span><span class="cursor">_</span></span>
+      </p>
+    </div>
+  </div>
+
+  <div class="presentation-divider" aria-hidden="true"></div>
+
+  <a href="{{ page.meetup_url }}" class="presentation-qr" rel="external">
+    {% assign first_event = upcoming | first %}
+    <span class="next-event" data-next-event>
+      <span class="next-event__label">{% if first_event %}// NEXT UP{% else %}// NEW EVENTS SOON{% endif %}</span>
+      <span class="next-event__title">{% if first_event %}{{ first_event.title }}{% else %}Alamo Tech Collective{% endif %}</span>
+      <span class="next-event__when">{% if first_event %}{{ first_event.date | date: "%a %b %-d · %-I:%M %p" | upcase }}{% endif %}</span>
+    </span>
+    <span class="qr-frame">
+      <span class="qr-corner qr-corner--tl" aria-hidden="true"></span>
+      <span class="qr-corner qr-corner--tr" aria-hidden="true"></span>
+      <span class="qr-corner qr-corner--bl" aria-hidden="true"></span>
+      <span class="qr-corner qr-corner--br" aria-hidden="true"></span>
+      <span class="qr-code">
+        <img src="{{ '/assets/images/meetup-qr.svg' | relative_url }}" alt="QR code linking to the Alamo Tech Collective Meetup group">
+      </span>
+    </span>
+    <span class="qr-caption">SCAN TO RSVP ON MEETUP</span>
+    <span class="qr-url">meetup.com/alamotechcollective</span>
+  </a>
+</section>
+
+<div class="presentation-hud" aria-hidden="true">
+  <span>// SAN ANTONIO, TX</span>
+  <span>MEETUPS · BUILD NIGHTS · WORKSHOPS</span>
+</div>

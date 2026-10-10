@@ -147,6 +147,8 @@ The site includes custom JavaScript in `assets/js/main.js`:
     - `data-scramble-loop` - Whether to repeat (true/false, default: false)
     - `data-scramble-interval` - Loop interval (ms, default: 3000)
   - Usage: `<span data-scramble="YOUR TEXT"></span>`
+  - `data-scramble-cycle="a|b|c"` scrambles through pipe-separated phrases (random start), waiting `data-scramble-interval` ms after each finishes; honors `data-scramble-delay`. Used by the `/presentation` page (phrases live in `presentation.md` front matter as `one_liners`)
+- **Next Event** (`/presentation` only): `initializeNextEvent` reads the JSON that `_layouts/presentation.html` embeds from `_data/events.json` + `additional_events.json`, and shows the next event that has not started yet (or NEW EVENTS SOON) based on the browser clock (re-checked every minute), so it stays correct between daily rebuilds
 - **Header Scroll Behavior**: Hides header when scrolling down >50px (translateY(-100%)), shows when scrolling up >100px (desktop only, disabled on mobile ≤768px)
 - Uses requestAnimationFrame for smooth animations
 

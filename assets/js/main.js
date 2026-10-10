@@ -98,6 +98,38 @@ if (document.readyState === 'loading') {
 }
 
 // ——————————————————————————————————————————————————
+// Cycle TextScramble through phrases via data-scramble-cycle="a|b|c"
+// ——————————————————————————————————————————————————
+
+function initializeScrambleCycle() {
+  const cycleElements = document.querySelectorAll('[data-scramble-cycle]');
+
+  cycleElements.forEach(el => {
+    const lines = el.dataset.scrambleCycle.split('|').filter(Boolean);
+    if (!lines.length) return;
+
+    const delay = parseInt(el.dataset.scrambleDelay) || 0;
+    const interval = parseInt(el.dataset.scrambleInterval) || 3000;
+    const fx = new TextScramble(el);
+    let index = Math.floor(Math.random() * lines.length);
+
+    // Wait for each scramble to finish before scheduling the next
+    const next = () => {
+      fx.setText(lines[index]).then(() => setTimeout(next, interval));
+      index = (index + 1) % lines.length;
+    };
+
+    setTimeout(next, delay);
+  });
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeScrambleCycle);
+} else {
+  initializeScrambleCycle();
+}
+
+// ——————————————————————————————————————————————————
 // RSVP Bar Width Setter
 // ——————————————————————————————————————————————————
 
@@ -157,3 +189,55 @@ window.addEventListener('scroll', () => {
 
   lastScrollTop = scrollTop;
 });
+
+// ——————————————————————————————————————————————————
+// Presentation page: show the next upcoming event from _data/events.json.
+// Picked in the browser so it stays current between daily site rebuilds.
+// ——————————————————————————————————————————————————
+
+function initializeNextEvent() {
+  const el = document.querySelector('[data-next-event]');
+  const data = document.getElementById('presentation-events');
+  if (!el || !data) return;
+
+  let events;
+  try {
+    events = JSON.parse(data.textContent);
+  } catch (e) {
+    return;
+  }
+
+  const label = el.querySelector('.next-event__label');
+  const title = el.querySelector('.next-event__title');
+  const when = el.querySelector('.next-event__when');
+  const timeZone = 'America/Chicago';
+
+  const update = () => {
+    const now = Date.now();
+    const event = events.find(ev => Date.parse(ev.date) > now);
+
+    if (!event) {
+      label.textContent = '// NEW EVENTS SOON';
+      title.textContent = 'Alamo Tech Collective';
+      when.textContent = '';
+      return;
+    }
+
+    const start = new Date(event.date);
+    const day = start.toLocaleDateString('en-US', { timeZone, weekday: 'short', month: 'short', day: 'numeric' });
+    const time = start.toLocaleTimeString('en-US', { timeZone, hour: 'numeric', minute: '2-digit' });
+
+    label.textContent = '// NEXT UP';
+    title.textContent = event.title;
+    when.textContent = `${day.replace(',', '')} · ${time}`.toUpperCase();
+  };
+
+  update();
+  setInterval(update, 60 * 1000);
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeNextEvent);
+} else {
+  initializeNextEvent();
+}
