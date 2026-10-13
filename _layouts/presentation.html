@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<div class="presentation-fx" aria-hidden="true"></div>
-
 {% assign upcoming = site.data.events | concat: site.data.additional_events | sort: "date" %}
 <script type="application/json" id="presentation-events">{{ upcoming | jsonify }}</script>
 

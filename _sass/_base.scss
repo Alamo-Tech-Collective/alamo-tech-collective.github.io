@@ -15,6 +15,48 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+// Site-wide backdrop: viewport-fixed red glow, CRT scanlines, faint grid,
+// and a slow sweeping scan beam
+.site-fx {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(0deg, rgba($black, 0.35) 0 1px, transparent 1px 3px),
+    linear-gradient(rgba($red, 0.05) 1px, transparent 1px) 0 0 / 60px 60px,
+    linear-gradient(90deg, rgba($red, 0.05) 1px, transparent 1px) 0 0 / 60px 60px,
+    radial-gradient(circle at right, black, #670000);
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 18vh;
+    background: linear-gradient(transparent, rgba($red, 0.07), transparent);
+    animation: scanBeam 9s linear infinite;
+  }
+}
+
+// Keep page content above the backdrop
+main,
+.site-footer {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes scanBeam {
+  from { top: -20vh; }
+  to { top: 100vh; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-fx::after {
+    animation: none;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   line-height: 1.2;
