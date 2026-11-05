@@ -1,5 +1,17 @@
 [
   {
+    "title": "Agent Builders Night",
+    "date": "2026-11-10T18:00:00-06:00",
+    "end_date": "2026-11-10T19:30:00-06:00",
+    "venue": {
+      "name": "10200 San Pedro Avenue",
+      "address": "10200 San Pedro Ave, San Antonio, TX 78216, USA, San Antonio, TX, 78216"
+    },
+    "url": "https://www.meetup.com/alamotechcollective/events/317290481/",
+    "description": "Builders Night is a working session for people building with AI agents in San Antonio. Come with a laptop and either:\n\n* a project you’re shipping, or\n* an idea you want to start tonight\n\nWe’ll trade approaches, pair up where it helps, and leave with something further along than when we walked in. Beginners and experienced builders both fit. Bring curiosity and a concrete problem. Hosted with Alamo Tech Collective. Free. Just show up ready to build.",
+    "image": "https://secure-content.meetupstatic.com/images/classic-events/536982930/highres.jpeg"
+  },
+  {
     "title": "Byte Night",
     "date": "2026-11-13T18:00:00-06:00",
     "end_date": "2026-11-13T21:00:00-06:00",
