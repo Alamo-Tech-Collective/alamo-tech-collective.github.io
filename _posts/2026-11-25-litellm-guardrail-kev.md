@@ -8,6 +8,9 @@ excerpt: "CISA just added a LiteLLM sandbox escape to its list of bugs attackers
 description: "CISA just added a LiteLLM sandbox escape to its list of bugs attackers are actually using. The flaw turns a guardrail-testing endpoint into code execution on your AI gateway, and the fix has been out since April."
 ---
 
+<div class='featured-image-container'>
+  <img src="/assets/images/blogs/litellm-guardrail-kev/litellm-guardrail-kev.jpg" alt="Header image: The Guardrail Was the Way In, a cracked green shield in front of an AI gateway, with the Alamo Tech Collective logo" class="featured-image">
+</div>
 Your LLM gateway is the box that holds every provider API key your team owns. Last week CISA said it has evidence that attackers are exploiting one open-source gateway, LiteLLM, through the feature meant to keep it safe: the guardrails.
 
 On November 18, CISA added [CVE-2026-40217, a code-execution bug in BerriAI's LiteLLM, to its Known Exploited Vulnerabilities (KEV) catalog](https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog). KEV is the list of bugs CISA has [evidence are being exploited in the wild](https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog). Not "could be." Are.
