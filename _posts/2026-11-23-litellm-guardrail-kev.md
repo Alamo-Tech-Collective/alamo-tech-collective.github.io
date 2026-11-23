@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Your AI Gateway's Guardrail Was the Way In: LiteLLM Bug Hits CISA's Exploited List"
-date: 2026-11-25
+date: 2026-11-23
 categories: [cybersecurity, ai, open-source]
 author: "Alamo Tech Collective"
 excerpt: "CISA just added a LiteLLM sandbox escape to its list of bugs attackers are actually using. The flaw turns a guardrail-testing endpoint into code execution on your AI gateway, and the fix has been out since April."
