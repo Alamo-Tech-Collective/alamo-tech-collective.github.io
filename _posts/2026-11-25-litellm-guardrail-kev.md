@@ -66,10 +66,11 @@ San Antonio has spent years [calling itself Cyber City](https://alamotechcollect
 
 ## Talk about it in person
 
-Two December meetups in town are good places to compare notes. Neither is an ATC event, so check the organizers' pages for the latest.
+Three December meetups in town are good places to compare notes. Byte Night is ours; the other two are run by other groups, so check their pages for the latest.
 
 - **[Geeks&&Drinks: San Antonio](https://www.meetup.com/meetup-group-umecjcqo/events/lssnbvyjcqbcb/)**, hosted by the Geeks&& Community. Tuesday, December 1, 6–8 PM CT, at Idle Beer Hall & Brewery, 414 Brooklyn Ave. Bring your patch story.
 - **[Confidential Computing Leveraging Bootable Containers \|\| General Meeting](https://www.meetup.com/acm-sa/events/312889987/)**, from ACM San Antonio. Wednesday, December 9, 6–8 PM CT, hybrid. The Meetup page says the venue and speaker details are still to be announced: venue [TBD]. If "how do I isolate the thing that runs untrusted code" is on your mind after this week, the topic is right on point.
+- **[Byte Night](https://www.meetup.com/alamotechcollective/events/317553386/)**, hosted by Alamo Tech Collective. Friday, December 11, 6 PM CT, at Zelifcam, 10200 San Pedro Ave. Laid-back, no pitches: bring a laptop and your patch-and-rotate war stories, or just come talk shop.
 
 ## Pitch us a talk
 
@@ -97,4 +98,4 @@ Building San Antonio's tech community, one event at a time.
 - LiteLLM docs. *Production Best Practices.* <https://docs.litellm.ai/docs/proxy/prod>
 - Docker Hub. *litellm/litellm-non_root.* <https://hub.docker.com/r/litellm/litellm-non_root>
 - Alamo Tech Collective. (2026, January 4). *Cyber City SA.* <https://alamotechcollective.com/cybersecurity/san%20antonio/technology/2026/01/04/cyber-city-sa/>
-- Meetup: Alamo Tech Collective <https://www.meetup.com/alamotechcollective/>; Agent Builders Night <https://www.meetup.com/alamotechcollective/events/317290481/>; Geeks&&Drinks: San Antonio (Dec 1) <https://www.meetup.com/meetup-group-umecjcqo/events/lssnbvyjcqbcb/>; ACM San Antonio General Meeting (Dec 9) <https://www.meetup.com/acm-sa/events/312889987/>
+- Meetup: Alamo Tech Collective <https://www.meetup.com/alamotechcollective/>; Agent Builders Night <https://www.meetup.com/alamotechcollective/events/317290481/>; Geeks&&Drinks: San Antonio (Dec 1) <https://www.meetup.com/meetup-group-umecjcqo/events/lssnbvyjcqbcb/>; ACM San Antonio General Meeting (Dec 9) <https://www.meetup.com/acm-sa/events/312889987/>; Byte Night (Dec 11) <https://www.meetup.com/alamotechcollective/events/317553386/>
